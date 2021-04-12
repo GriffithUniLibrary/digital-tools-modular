@@ -91,3 +91,11 @@ Examples below demonstrate the includes.
 `{% raw %}{% include video-embed.html youtubeid="moJgWrD6dwg" caption="Example video" %}{% endraw %}`
 
 {% include video-embed.html youtubeid="moJgWrD6dwg" caption="Example video" %}
+
+
+
+### Liquid code syntax in VS Code
+
+VS Code has a liquid code highlighting plugin which is here: 
+
+https://marketplace.visualstudio.com/items?itemName=sissel.shopify-liquid
