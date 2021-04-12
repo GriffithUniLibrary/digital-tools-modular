@@ -22,6 +22,8 @@ It's much better for reliability to entrust your data storage to a cloud provide
 
 {% include alert.md text=cloudstor color=success %}
 
+{% include video-embed.html youtubeid="mGaqxrrxfgA" caption="Signing in to Cloustor" %}
+
 ### Security
 
 ### Backups
