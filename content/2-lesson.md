@@ -17,7 +17,7 @@ This [site](https://evanwill.github.io/workshop-template-b/) demonstrates the ou
 6. In your repository's settings, activate GitHub Pages, using main branch.{% endcapture %}
 {% include card.html header="Overview" text=text %}
 
-{% include ../content/2-lesson-text.md %}
+{% include_relative 2-lesson-text.md %}
 
 ## Basic Configuration
 
