@@ -4,7 +4,7 @@ nav: Prep
 topics: Data safety, security, backup
 ---
 
-{% include figure.html img="uidaho-workshop.jpg" alt="intro image here" caption="Library workshop" width="75%" %}
+{% include figure.html img="wwdc.jpg" alt="intro image here" caption="Library workshop" width="75%" %}
 
 <!--
 {% include figure.html img="ch-preparation.png" alt="A boy and his tiger prepare to embark on their journey" caption="Preparing to embark" width="75%" %}
