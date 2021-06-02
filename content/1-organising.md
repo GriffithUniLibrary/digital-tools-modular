@@ -6,36 +6,30 @@ description: >
     This is one of the most exciting areas of development in digital tools for research. How to organise and connect your thoughts and plans so that you become a knowledge powerhouse!
 
 ---
+### New Tools for organising your thoughts
 
-`workshop-template-b` is a Jekyll project to create a simple workshop website, with a [Bootstrap](https://getbootstrap.com/)-based theme, designed for hosting on [GitHub Pages](https://pages.github.com/).
+A new stable of lightweight apps designed to help researchers connect their thoughts together have begun to emerge. Most or all of them use Markdown syntax for writing. 
 
-It works best for about 5 pages of instructions, plus index, all written in Markdown. 
-The navigation to the main pages is exposed at top and bottom of each page for easy stepping through the lessons.
+{% capture connectednotes %}
+ **[Notion](www.notion.so)** 
+> Notion bills itself as an all in one workspace. It allows you to make any number of pages, tables, links, databases and link them all together in just about any way imaginable. There are many 
+> Free for education (sign in with Google using Griffith ID). 
+> Notion has just released an API making it more interoperable with other application. 
+ - ⭐️ [Microsoft OneNote](https://www.onenote.com/hrd)
 
-### Why?
+{% include card.html header="📒 Connected note taking apps" text=connectednotes %}
 
-Rather than making slides for a workshop, why not make a website? 
-It's easier to write, access, share, and reuse. 
-GitHub and GitHub Pages makes this pretty easy.
+{% capture notes }
+ - [Airtable](www.airtable.com) - online relational database
+ - [Evernote](https://evernote.com)
+ - [Rocketbook](https://getrocketbook.com.au/) is a new tool introduced by a previous attendee at this workshop. It captures your written notes in a paper book and converts it to digital text.
+ {% endcapture notes %}
+ {% include card.html header="📒 Other note taking apps" text=notes %}
 
-It is a better [Open Educational Resource](https://en.wikipedia.org/wiki/Open_educational_resources) since anyone can make a copy and adapt!
-
-## GitHub Pages 
-
-One amazingly useful GitHub feature is [GitHub Pages](https://guides.github.com/features/pages/).
-It provides free static web hosting from any repository.
-Gh-pages is intended to host relatively simple sites for your GitHub portfolio, project, or documentation.
-Because it is free and a valuable transferable skill, this is a great option for teaching and learning.
-
-Many organizations are using GitHub to collaboratively create and publish public workshop websites. 
-For example: 
-
-- [Programming Historian](http://programminghistorian.org/)
-- [Software Carpentry](https://software-carpentry.org/), [Data Carpentry](http://www.datacarpentry.org/), [Library Carpentry](https://librarycarpentry.org/)
-- this site!
-
-{% capture text %}Note:
-There are *soft* limits and guidelines for gh-pages usage: sites should be < 1GB, use < 100GB bandwidth per month, and make < 10 builds per hour.
-If your site exceeds these quotas, GitHub will send you a notice asking you to modify the repository.
-All content must follow the [community guidelines](https://help.github.com/articles/github-community-guidelines/), e.g. no violence, obscene sex, or illegal stuff.{% endcapture %}
-{% include alert.html text=text color=secondary %}
+{% capture mindmaps %}
+ - ⭐️ [Diagrams.net](https://app.diagrams.net/) Fully free, with web and desktop versions. A wide range of templates. Integrates with OneDrive and Google Drive.
+ - [MindMeister](https://www.mindmeister.com) - mind mapping tool. connect through O365 at Griffith
+ - [MindNode](https://mindnode.com) is a popular Mac and iOS option.
+ - [Scapple](https://www.literatureandlatte.com/scapple/overview)
+ - [MindJet](https://www.mindjet.com){% endcapture %}
+{% include card.html header="🧠 Mind-mapping" text=mindmaps %}
