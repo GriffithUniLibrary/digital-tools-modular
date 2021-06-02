@@ -57,7 +57,7 @@ Because when you're syncing, if you delete something from your computer, it's al
 {% include modal.html button="Really? Why not?" color="info" title="Why is a sync not a backup?" text=backupmodal %}
 
 You should run a backup tool *in addition* to the services above. Your best, most secure option is to backup both to a physical hard drive and to an online service.
-
+<!-- 
 {% capture backupoptions %}
  - ⭐️ [Griffith Research Storage](https://research-storage.griffith.edu.au) is built on the same technology as Cloudstor and is very fast. Research Vault is available for you to store data you are no longer actively using.
  Here is a [handy questionnaire](https://research-storage.griffith.edu.au/compare) to help you decide Griffith Research Storage can help you.
@@ -66,7 +66,7 @@ You should run a backup tool *in addition* to the services above. Your best, mos
  - [RSync](https://rsync.samba.org) - Here's the nice technical option. RSync is a command-line tool for syncing local folders with an external hard drive or network drive.
 {% endcapture %}
 {% include card.html header="🛰 Online backup options" text=backupoptions %}
-<!-- 
+
 {% capture hdbackups %}
  - ⭐️ Time Machine (Mac)
  - ⭐️ Windows Backup (Windows 10)
