@@ -79,5 +79,6 @@ The best backup is the one you will use. That means set-and-forget is best. Buy 
 
 
 {% capture why %}
-Because (a) you will inevitably forget to do it at some point, and (b) each new copy replaces what was there before meaning you can't recover older versions of your work.{% endcapture %} 
-{% include modal.html button="Why is drag-and-drop the worst way to back up?" color="info" title="Why drag and drop is a bad idea" text=why %}{% endcapture %}
+Because (a) you will inevitably forget to do it at some point, and (b) each new copy replaces what was there before meaning you can't recover older versions of your work.
+{% endcapture %}
+{% include modal.html button="Why is drag-and-drop the worst way to back up?" color="info" title="Why drag and drop is a bad idea" text=why %}
