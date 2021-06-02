@@ -15,6 +15,7 @@ Your data storage location is critical. It needs to be three things: reliable, s
 
 It's much better for reliability to entrust your data storage to a cloud provider. Cloud providers host data on servers with 'failover redundancy', meaning if one server ever fails, another is ready to take its place instantly. This is how they can advertise '99.999% uptime'. 
 
+<!--
 {% capture options %}
 - [Cloudstor](https://cloudstor.aarnet.edu.au) is powered by AARNet (The Australian Academic Research Network) and provides students and researchers with a Terabyte of free, ultra-fast storage. It's easy to set up and works just like Dropbox.
 - [Google Drive](https://www.google.com/drive/)
@@ -53,7 +54,7 @@ Because when you're syncing, if you delete something from your computer, it's al
 {% include modal.html button="Really? Why not?" color=info title="Why is a sync not a backup?" text=backupmodal %}
 
 You should run a backup tool *in addition* to the services above. Your best, most secure option is to backup both to a physical hard drive and to an online service.
-<!-- 
+
 {% capture backupoptions %}
  - ⭐️ [Griffith Research Storage](https://research-storage.griffith.edu.au) is built on the same technology as Cloudstor and is very fast. Research Vault is available for you to store data you are no longer actively using.
  Here is a [handy questionnaire](https://research-storage.griffith.edu.au/compare) to help you decide Griffith Research Storage can help you.
@@ -67,6 +68,7 @@ You should run a backup tool *in addition* to the services above. Your best, mos
  - ⭐️ Time Machine (Mac)
  - ⭐️ Windows Backup (Windows 10)
  - Drag-and-drop (the worst option)
+ {% endcapture %}
 
 {% include card.html header="💽 Hard-drive backup options" text=hdbackups %}
 
