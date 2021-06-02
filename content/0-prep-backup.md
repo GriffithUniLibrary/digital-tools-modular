@@ -4,7 +4,7 @@
     **First things first:** find a place to put your research. Don't lose it. Keep it secure.
     {% endcapture %}
 
-{% include alert.md text=ftf color=primary %}
+{% include alert.html text=ftf color=primary %}
 
 Your data storage location is critical. It needs to be three things: reliable, secure, and backed up. 
 
