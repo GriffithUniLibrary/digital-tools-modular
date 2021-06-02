@@ -5,13 +5,13 @@
     
 Find a place to put your research data. Don't lose it. Keep it secure.
 {% endcapture %}
-{% include alert.html text=ftf color="warning" %}
+{% include alert.html text=ftf color=warning %}
 
 Your data storage location is critical. It needs to be three things: reliable, secure, and backed up. 
 
 ### Reliability
 
-{% include modal.html button="What do you mean by 'reliability'?" color="info" title="About reliability" text="Reliability means there's a very low chance that the medium you've recorded your data on will fail. Modern computer hard drives are fairly reliable, but every drive will fail eventually. Laptop hard drives in particular can be less reliable." %}
+{% include modal.html button="What do you mean by 'reliability'?" color=info title="About reliability" text="Reliability means there's a very low chance that the medium you've recorded your data on will fail. Modern computer hard drives are fairly reliable, but every drive will fail eventually. Laptop hard drives in particular can be less reliable." %}
 
 It's much better for reliability to entrust your data storage to a cloud provider. Cloud providers host data on servers with 'failover redundancy', meaning if one server ever fails, another is ready to take its place instantly. This is how they can advertise '99.999% uptime'. 
 
@@ -27,7 +27,7 @@ It's much better for reliability to entrust your data storage to a cloud provide
 {% capture note %}
 **Note:** When signing in to OneDrive, be sure to use your Griffith credentials rather than a personal Microsoft account.
 {% endcapture %}
-{% include alert.html text=note color="info" %}
+{% include alert.html text=note color=info %}
 
 
 {% capture cloudstor %}Our recommendation: **AARNet Cloudstor**
@@ -35,26 +35,22 @@ It's much better for reliability to entrust your data storage to a cloud provide
 [Cloudstor](https://cloudstor.aarnet.edu.au) is powered by AARNet (The Australian Academic Research Network) and provides students and researchers with a Terabyte of free, ultra-fast storage. It's easy to set up and works just like Dropbox.
 {% endcapture %}
 
-{% include alert.html text=cloudstor color="success" %}
+{% include alert.html text=cloudstor color=success %}
 
 {% include video-embed.html youtubeid="mGaqxrrxfgA" caption="Signing in to Cloustor" %}
-
-### Security
-
-### Backups
 
 ## Keeping more than one perfect copy of your data
 
 {% capture warning %}
 **Remember:** sync is not the same as backup!
 {% endcapture %}
-{% include alert.html text=warning color="warning" %}
+{% include alert.html text=warning color=warning %}
 
 {% capture backupmodal %}
 Because when you're syncing, if you delete something from your computer, it's also deleted from the remote copy. That's the **opposite** of a backup!
 {% endcapture %}
 
-{% include modal.html button="Really? Why not?" color="info" title="Why is a sync not a backup?" text=backupmodal %}
+{% include modal.html button="Really? Why not?" color=info title="Why is a sync not a backup?" text=backupmodal %}
 
 You should run a backup tool *in addition* to the services above. Your best, most secure option is to backup both to a physical hard drive and to an online service.
 <!-- 
@@ -78,6 +74,6 @@ You should run a backup tool *in addition* to the services above. Your best, mos
 The best backup is the one you will use. That means set-and-forget is best. Buy a simple external hard drive and leave it plugged in to your computer, or place a weekly calendar reminder to plug it in. Let the operating system do the rest. 
 {% endcapture %}
 
-{% include alert.html text=timemachine color="success" %}
+{% include alert.html text=timemachine color=success %}
 
 -->
