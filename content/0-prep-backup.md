@@ -39,6 +39,8 @@ It's much better for reliability to entrust your data storage to a cloud provide
 
 {% include video-embed.html youtubeid="mGaqxrrxfgA" caption="Signing in to Cloustor" %}
 
+___
+
 ## Keeping more than one perfect copy of your data
 
 {% capture warning %}
@@ -72,6 +74,7 @@ You should run a backup tool *in addition* to the services above. Your best, mos
 {% include card.html header="💽 Hard-drive backup options" text=hdbackups %}
 
 {% capture timemachine %}Our recommendation: **Your operating system**
+
 The best backup is the one you will use. That means set-and-forget is best. Buy a simple external hard drive and leave it plugged in to your computer, or place a weekly calendar reminder to plug it in. Let the operating system do the rest. 
 {% endcapture %}
 
