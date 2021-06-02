@@ -9,3 +9,4 @@ topics: Data safety, security, backup
 -->
 {% include_relative 0-prep-backup.md %}
 
+{% include_relative 0-prep-security.md %}

@@ -50,7 +50,7 @@ It's much better for reliability to entrust your data storage to a cloud provide
 Because when you're syncing, if you delete something from your computer, it's also deleted from the remote copy. That's the **opposite** of a backup!
 {% endcapture %}
 
-{% include modal.html button="Really? Why not?" color=info title="Why is a sync not a backup?" text=backupmodal %}
+{% include modal.html button="Really? Why not?" color="info" title="Why is a sync not a backup?" text=backupmodal %}
 
 You should run a backup tool *in addition* to the services above. Your best, most secure option is to backup both to a physical hard drive and to an online service.
 
@@ -75,4 +75,9 @@ You should run a backup tool *in addition* to the services above. Your best, mos
 The best backup is the one you will use. That means set-and-forget is best. Buy a simple external hard drive and leave it plugged in to your computer, or place a weekly calendar reminder to plug it in. Let the operating system do the rest. 
 {% endcapture %}
 
-{% include alert.html text=timemachine color=success %}
+{% include alert.html text=timemachine color="success" %}
+
+
+{% capture why %}
+Because (a) you will inevitably forget to do it at some point, and (b) each new copy replaces what was there before meaning you can't recover older versions of your work.{% endcapture %} 
+{% include modal.html button="Why is drag-and-drop the worst way to back up?" color="info" title="Why drag and drop is a bad idea" text=why %}{% endcapture %}
