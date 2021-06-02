@@ -1,3 +1,5 @@
+___
+
 ### Security
 
 {% capture text %}The best way to keep your passwords *different and secure* is to use a password manager. ⭐️ The best *password* to use is a *passphrase*.{% endcapture %}
@@ -23,6 +25,7 @@ You could, but you would be missing out on a few of the key benefits of password
 {% include card.html header="Recommended password managers" text=pwmanagers %}
 
 {% capture pwrecommended %}Our recommendation: **Bitwarden**
+
 Although LastPass is offered by Griffith, it is not as seamless as Bitwarden, and does not necessarily come with you if you leave Griffith. For that reason, we recommend going with Bitwarden. 
 {% endcapture %}
 {% include alert.html text=pwrecommended color="success" %}
