@@ -20,6 +20,7 @@ It's much better for reliability to entrust your data storage to a cloud provide
 - [Google Drive](https://www.google.com/drive/)
 - [OneDrive](https://griffitheduau-my.sharepoint.com/)
 - [Dropbox](https://www.dropbox.com/)
+{% endcapture %}
 
 {% include card.html header="🔄 Online storage & sync " text=options %}
 
