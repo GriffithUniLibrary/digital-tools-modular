@@ -32,4 +32,4 @@ It's much better for reliability to entrust your data storage to a cloud provide
 
 This is where we talk about backups. 
 
-{% include alert.html text="Hello, this is an alert" color=primary %}
+{% include alert.html text="**Warning** Hello, this is an alert" color=primary %}
