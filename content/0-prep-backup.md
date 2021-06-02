@@ -14,6 +14,8 @@ Your data storage location is critical. It needs to be three things: reliable, s
 
 {% include button.html text="What do you mean by 'reliability'?" %}
 
+{% include modal.html button="What do you mean by 'reliability'?" color="info" title="About reliability" text="Reliability means there's a very low chance that the medium you've recorded your data on will fail. Modern computer hard drives are fairly reliable, but they still can fail. Laptop hard drives in particular can be less reliable." %}
+
 Reliability means there's a very low chance that the medium you've recorded your data on will fail. Modern computer hard drives are fairly reliable, but they still can fail. Laptop hard drives in particular can be less reliable.
 
 It's much better for reliability to entrust your data storage to a cloud provider. Cloud providers host data on servers with 'failover redundancy', meaning if one server ever fails, another is ready to take its place instantly. This is how they can advertise '99.999% uptime'. 
