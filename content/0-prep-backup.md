@@ -72,10 +72,11 @@ You should run a backup tool *in addition* to the services above. Your best, mos
  - Drag-and-drop (the worst option)
 
 {% include card.html header="💽 Hard-drive backup options" text=hdbackups %}
-
+<!-- 
 {% capture timemachine %}Our recommendation: **Your operating system**
 The best backup is the one you will use. That means set-and-forget is best. Buy a simple external hard drive and leave it plugged in to your computer, or place a weekly calendar reminder to plug it in. Let the operating system do the rest. 
 {% endcapture %}
 
 {% include alert.html text=timemachine color="success" %}
 
+-->
