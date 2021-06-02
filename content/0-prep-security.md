@@ -18,8 +18,9 @@ You could, but you would be missing out on a few of the key benefits of password
  - ⭐️ [LastPass](https://www.griffith.edu.au/passwords/lastpass) is Griffith's supported password manager. It is available to all staff. 
  - ⭐️ [Bitwarden](www.bitwarden.com) is free and open source, multiplatform, simple to use. Very modern and well-regarded.
  - [1Password](https://1password.com) - high quality commercial (paid) option. It's been around along time and has a good reputation.
- - [Dashlane](https://www.dashlane.com){% endcapture %}
-{% include card.html header="Recommended password managers" text={% capture pwmanagers %}
+ - [Dashlane](https://www.dashlane.com)
+{% endcapture %}
+{% include card.html header="Recommended password managers" text=pwmanagers %}
 
 {% capture pwrecommended %}Our recommendation: **Bitwarden**
 Although LastPass is offered by Griffith, it is not as seamless as Bitwarden, and does not necessarily come with you if you leave Griffith. For that reason, we recommend going with Bitwarden. 
