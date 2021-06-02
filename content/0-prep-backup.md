@@ -11,7 +11,7 @@ Your data storage location is critical. It needs to be three things: reliable, s
 
 ### Reliability
 
-{% include modal.html button="What do you mean by 'reliability'?" color="info" title="About reliability" text="Reliability means there's a very low chance that the medium you've recorded your data on will fail. Modern computer hard drives are fairly reliable, but they still can fail. Laptop hard drives in particular can be less reliable." %}
+{% include modal.html button="What do you mean by 'reliability'?" color="info" title="About reliability" text="Reliability means there's a very low chance that the medium you've recorded your data on will fail. Modern computer hard drives are fairly reliable, but every drive will fail eventually. Laptop hard drives in particular can be less reliable." %}
 
 It's much better for reliability to entrust your data storage to a cloud provider. Cloud providers host data on servers with 'failover redundancy', meaning if one server ever fails, another is ready to take its place instantly. This is how they can advertise '99.999% uptime'. 
 
@@ -43,6 +43,26 @@ It's much better for reliability to entrust your data storage to a cloud provide
 
 ### Backups
 
-This is where we talk about backups. 
+## Backup
 
-{% include alert.html text="**Warning** Hello, this is an alert" color=primary %}
+{% capture warning %}
+**Remember:** sync is not the same as backup!
+{% endcapture %}
+{% include alert.html text=warning color="warning" %}
+
+{% capture backupmodal %}
+Because when you're syncing, if you delete something from your computer, it's also deleted from the remote copy. That's the **opposite** of a backup!
+{% endcapture %}
+
+{% include modal.html button="Really? Why not?" color="info" title="Why is a sync not a backup?" text=backupmodal %}
+
+
+You should run a backup tool *in addition* to the services above. Your best, most secure option is to backup both to a physical hard drive and to an online service.
+
+{% capture backupoptions %}
+ - ⭐️ [Griffith Research Storage](https://research-storage.griffith.edu.au) is built on the same technology as Cloudstor and is very fast. Research Vault is available for you to store data you are no longer actively using.
+ Here is a [handy questionnaire](https://research-storage.griffith.edu.au/compare) to help you decide Griffith Research Storage can help you.
+ - ⭐️ [Arq Backup](www.arqbackup/com) - use Arq to back your computer up to your Cloudstor or to your OneDrive. It's not free, but the $50 license is less than the cost of a hard drive and makes backing up completely automatic.
+ - [Backblaze](https://www.backblaze.com) - popular, paid.
+ - [RSync](https://rsync.samba.org) - Here's the nice technical option. RSync is a command-line tool for syncing local folders with an external hard drive or network drive.{% endcapture %}
+{% include card.md header="🛰 Online backup" text=backupoptions %}
