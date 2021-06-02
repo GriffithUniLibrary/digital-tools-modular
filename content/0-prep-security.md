@@ -23,4 +23,5 @@ You could, but you would be missing out on a few of the key benefits of password
 
 {% capture pwrecommended %}Our recommendation: **Bitwarden**
 Although LastPass is offered by Griffith, it is not as seamless as Bitwarden, and does not necessarily come with you if you leave Griffith. For that reason, we recommend going with Bitwarden. 
-{% pwrecommended %}
+{% endcapture %}
+{% include alert.html text=pwrecommended color="success" %}
