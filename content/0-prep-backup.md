@@ -63,16 +63,17 @@ You should run a backup tool *in addition* to the services above. Your best, mos
  Here is a [handy questionnaire](https://research-storage.griffith.edu.au/compare) to help you decide Griffith Research Storage can help you.
  - ⭐️ [Arq Backup](www.arqbackup/com) - use Arq to back your computer up to your Cloudstor or to your OneDrive. It's not free, but the $50 license is less than the cost of a hard drive and makes backing up completely automatic.
  - [Backblaze](https://www.backblaze.com) - popular, paid.
- - [RSync](https://rsync.samba.org) - Here's the nice technical option. RSync is a command-line tool for syncing local folders with an external hard drive or network drive.{% endcapture %}
+ - [RSync](https://rsync.samba.org) - Here's the nice technical option. RSync is a command-line tool for syncing local folders with an external hard drive or network drive.
+{% endcapture %}
 {% include card.html header="🛰 Online backup options" text=backupoptions %}
-
+<!-- 
 {% capture hdbackups %}
  - ⭐️ Time Machine (Mac)
  - ⭐️ Windows Backup (Windows 10)
  - Drag-and-drop (the worst option)
 
 {% include card.html header="💽 Hard-drive backup options" text=hdbackups %}
-<!-- 
+
 {% capture timemachine %}Our recommendation: **Your operating system**
 The best backup is the one you will use. That means set-and-forget is best. Buy a simple external hard drive and leave it plugged in to your computer, or place a weekly calendar reminder to plug it in. Let the operating system do the rest. 
 {% endcapture %}
