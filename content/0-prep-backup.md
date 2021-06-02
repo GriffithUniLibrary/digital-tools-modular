@@ -65,4 +65,4 @@ You should run a backup tool *in addition* to the services above. Your best, mos
  - ⭐️ [Arq Backup](www.arqbackup/com) - use Arq to back your computer up to your Cloudstor or to your OneDrive. It's not free, but the $50 license is less than the cost of a hard drive and makes backing up completely automatic.
  - [Backblaze](https://www.backblaze.com) - popular, paid.
  - [RSync](https://rsync.samba.org) - Here's the nice technical option. RSync is a command-line tool for syncing local folders with an external hard drive or network drive.{% endcapture %}
-{% include card.md header="🛰 Online backup" text=backupoptions %}
+{% include card.html header="🛰 Online backup" text=backupoptions %}
