@@ -3,7 +3,7 @@ title: Home
 layout: default
 ---
 
-# Bootstrap Workshop Template!
+# Digital Tools for Research
 
 {% include figure.html img="uidaho-workshop.jpg" alt="intro image here" caption="Library workshop" width="75%" %}
 

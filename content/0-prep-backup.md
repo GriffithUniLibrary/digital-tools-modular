@@ -1,7 +1,9 @@
 ## Data storage and backup
 
 {% capture ftf %}
-    **First things first:** find a place to put your research. Don't lose it. Keep it secure.
+    **First things first:** 
+    
+    find a place to put your research. Don't lose it. Keep it secure.
     {% endcapture %}
 
 {% include alert.html text=ftf color=primary %}
@@ -30,3 +32,4 @@ It's much better for reliability to entrust your data storage to a cloud provide
 
 This is where we talk about backups. 
 
+{% include alert.html text="Hello, this is an alert" color=primary %}
