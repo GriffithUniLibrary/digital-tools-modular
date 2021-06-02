@@ -5,17 +5,16 @@
     
 Find a place to put your research data. Don't lose it. Keep it secure.
 {% endcapture %}
-{% include alert.html text=ftf color=warning %}
+{% include alert.html text=ftf color="warning" %}
 
 Your data storage location is critical. It needs to be three things: reliable, secure, and backed up. 
 
 ### Reliability
 
-{% include modal.html button="What do you mean by 'reliability'?" color=info title="About reliability" text="Reliability means there's a very low chance that the medium you've recorded your data on will fail. Modern computer hard drives are fairly reliable, but every drive will fail eventually. Laptop hard drives in particular can be less reliable." %}
+{% include modal.html button="What do you mean by 'reliability'?" color="info" title="About reliability" text="Reliability means there's a very low chance that the medium you've recorded your data on will fail. Modern computer hard drives are fairly reliable, but every drive will fail eventually. Laptop hard drives in particular can be less reliable." %}
 
 It's much better for reliability to entrust your data storage to a cloud provider. Cloud providers host data on servers with 'failover redundancy', meaning if one server ever fails, another is ready to take its place instantly. This is how they can advertise '99.999% uptime'. 
 
-<!--
 {% capture options %}
 - [Cloudstor](https://cloudstor.aarnet.edu.au) is powered by AARNet (The Australian Academic Research Network) and provides students and researchers with a Terabyte of free, ultra-fast storage. It's easy to set up and works just like Dropbox.
 - [Google Drive](https://www.google.com/drive/)
@@ -23,12 +22,12 @@ It's much better for reliability to entrust your data storage to a cloud provide
 - [Dropbox](https://www.dropbox.com/)
 {% endcapture %}
 
-{% include card.html header="🔄 Online storage & sync options " text=options %}
+{% include card.html header="🔄 Online storage & sync options" text=options %}
 
 {% capture note %}
 **Note:** When signing in to OneDrive, be sure to use your Griffith credentials rather than a personal Microsoft account.
 {% endcapture %}
-{% include alert.html text=note color=info %}
+{% include alert.html text=note color="info" %}
 
 
 {% capture cloudstor %}Our recommendation: **AARNet Cloudstor**
@@ -36,7 +35,7 @@ It's much better for reliability to entrust your data storage to a cloud provide
 [Cloudstor](https://cloudstor.aarnet.edu.au) is powered by AARNet (The Australian Academic Research Network) and provides students and researchers with a Terabyte of free, ultra-fast storage. It's easy to set up and works just like Dropbox.
 {% endcapture %}
 
-{% include alert.html text=cloudstor color=success %}
+{% include alert.html text=cloudstor color="success" %}
 
 {% include video-embed.html youtubeid="mGaqxrrxfgA" caption="Signing in to Cloustor" %}
 
@@ -45,7 +44,7 @@ It's much better for reliability to entrust your data storage to a cloud provide
 {% capture warning %}
 **Remember:** sync is not the same as backup!
 {% endcapture %}
-{% include alert.html text=warning color=warning %}
+{% include alert.html text=warning color="warning" %}
 
 {% capture backupmodal %}
 Because when you're syncing, if you delete something from your computer, it's also deleted from the remote copy. That's the **opposite** of a backup!
@@ -77,5 +76,3 @@ The best backup is the one you will use. That means set-and-forget is best. Buy 
 {% endcapture %}
 
 {% include alert.html text=timemachine color=success %}
-
--->
