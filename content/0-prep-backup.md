@@ -21,7 +21,7 @@ It's much better for reliability to entrust your data storage to a cloud provide
 - [OneDrive](https://griffitheduau-my.sharepoint.com/)
 - [Dropbox](https://www.dropbox.com/)
 
-{% include card.html header="🔄 Online storage & sync" text=options %}
+{% include card.html header="🔄 Online storage & sync " text=options %}
 
 {% capture note %}
 **Note:** When signing in to OneDrive, be sure to use your Griffith credentials rather than a personal Microsoft account.
@@ -29,7 +29,7 @@ It's much better for reliability to entrust your data storage to a cloud provide
 {% include alert.html text=note color="info" %}{% endcapture %}
 
 
-{% capture cloudstor %}Our recommendation: AARNet Cloudstor
+{% capture cloudstor %}Our recommendation: **AARNet Cloudstor**
 
 [Cloudstor](https://cloudstor.aarnet.edu.au) is powered by AARNet (The Australian Academic Research Network) and provides students and researchers with a Terabyte of free, ultra-fast storage. It's easy to set up and works just like Dropbox.
 {% endcapture %}
