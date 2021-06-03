@@ -27,7 +27,11 @@ A new stable of lightweight apps designed to help researchers connect their thou
 **Our recommendation: Notion**
 
 Notion is free for educational users. It is the easiest to get started with and the most visually attractive (if you like that sort of thing). There is a large and active community sharing Notion dashboards and designs, and many YouTube accounts describing how they use Notion to manage their study and life. 
-<!--{% include figure.html img="icon_notion.png" alt="Notion app icon" width="80px" %}-->
+
+{% comment %}
+{% include figure.html img="icon_notion.png" alt="Notion app icon" width="80px" %}-->
+{% endcomment %}
+
 {% endcapture %}
 
 {% include alert.html text=bestconnected color="success" %}
@@ -36,7 +40,9 @@ Notion is free for educational users. It is the easiest to get started with and 
 **Runner up: Obsidian**
 
 Obsidian is free and open source, and has many plug-ins that extend its capability. Its documents are plain Markdown (.md) text files, meaning it's extremely easy to migrate to and from the app to any other. 
-<!-- {% include figure.html img="icon_obsidian.png" alt="Obsidian Icon" width="80px" %} -->
+{% comment %}
+{% include figure.html img="icon_obsidian.png" alt="Obsidian Icon" width="80px" %}
+{% endcomment %}
 {% endcapture %}
 {% include alert.html text=runnerup color="info" %}
 
@@ -68,7 +74,8 @@ A mind map is a fantasic way to see and develop your ideas. You can mind maps to
 **Our recommendation: Diagrams.net**
 
 Free and open-source, fully-featured, highly integrated. What's not to like?
-
 {% endcapture %}
 
 {% include alert.html text=bestmind color="success" %}
+
+{% include alert.html text="Now that you're completely organised, it's time to look at some tools for capturing data" color="secondary" %}
