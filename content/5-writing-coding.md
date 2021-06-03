@@ -45,29 +45,27 @@ All of the programming text editors above support Markdown. Below are some dedic
 {% include card.html header="<i class='fab fa-markdown'></i> Programming text editors" text=markdowntools %}
 
 {% capture text %}
-    **What's a development environment?**
-    It's a set of tools that allow you to write, debug, build and run code. Some development environments support a single language  or platform (like R), and some (like Visual Studio) support multiple languages and platforms.
-    {% endcapture %}
+**What's a development environment?**: It's a set of tools that allow you to write, debug, build and run code. Some development environments support a single language  or platform (like R), and some (like Visual Studio) support multiple languages and platforms.
+{% endcapture %}
 
 {% include alert.html text=text color="info" %}
 
 {% capture environments %}
-    - [R](https://www.r-project.org) - extensible, support through Hacky Hour and Carpentries
-    - [Python](https://www.python.org) - support through Hacky Hour and Carpentries
-    - [GitLab](https://gitlab.rcs.griffith.edu.au) - Griffith University shared code repository
-    - [Visual Studio](https://visualstudio.microsoft.com) - mulitiplatform IDE published by Microsoft
-    - [GitHub](https://github.com) is a popular code repository site. This site is hosted on GitHub.
-    - [Anaconda](https://www.anaconda.com/distribution/) Python development environment
-    {% endcapture %}
+- **[R](https://www.r-project.org)**:  extensible, support through Hacky Hour and Carpentries
+- **[Python](https://www.python.org)**: support through Hacky Hour and Carpentries
+- **[GitLab](https://gitlab.rcs.griffith.edu.au)**: Griffith University shared code repository
+- **[Visual Studio](https://visualstudio.microsoft.com)**: mulitiplatform IDE published by Microsoft
+- **[GitHub](https://github.com)**: a popular code repository site. This site is hosted on GitHub.
+- **[Anaconda](https://www.anaconda.com/distribution/)**: Python development environment
+{% endcapture %}
 
-{% include card.html header="👾 Development environments" text=environments %}
+{% include card.html header="<i class='fas fa-bug'></i> Development languages and environments" text=environments %}
 
-{% capture text %}
-     - [Software carpentry](https://hackyhourgriffith.wordpress.com/events/soft-carp/)
-    - [Hacky Hour](https://hackyhourgriffith.wordpress.com)
-    {% endcapture %}
-
-{% include card.html header="Ways to get help at Griffith" text=text %}
+{% capture programminghelp %}
+- [Software carpentry](https://hackyhourgriffith.wordpress.com/events/soft-carp/)
+- [Hacky Hour](https://hackyhourgriffith.wordpress.com)
+{% endcapture %}
+{% include alert.html header="Ways to get help at Griffith" text=programminghelp color="info" %}
 
 -->
 ---
