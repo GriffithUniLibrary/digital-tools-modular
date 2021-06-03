@@ -9,7 +9,7 @@
 - [Data to Viz](https://www.data-to-viz.com/)
 {% endcapture %}
 
-{% include card.md header="Data visualisation tools" text=dataviz %}
+{% include card.html header="Data visualisation tools" text=dataviz %}
 
 {% capture bestdataviz %}
 **Our recommendation: Tableau**
@@ -23,7 +23,7 @@ Tableau can produce beautiful results quickly and is free to academic researcher
 RED workshops on [data visualisation and data storytelling](https://app.secure.griffith.edu.au/events/category/developing-researcher-training-program) are available and the Library has produced an [online introduction](https://sway.office.com/O9vEKmTmBXPxGOnE) you might find useful.
 {% endcapture %}
 
-{% include alert.md text=text color="primary" %}
+{% include alert.html text=text color="primary" %}
 
 Activity: Want to try out some data visualisation?
 

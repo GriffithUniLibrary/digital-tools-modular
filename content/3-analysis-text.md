@@ -6,7 +6,7 @@
 - [JSTOR Text Analyser](https://www.jstor.org/analyze/)
 {% endcapture %}
 
-{% include card.md header="🧸 Text analysis" text=textanalysis %}
+{% include card.html header="🧸 Text analysis" text=textanalysis %}
 
 Want to try out analysing some text? This is fun!
 

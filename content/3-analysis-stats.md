@@ -2,14 +2,14 @@
 The boundaries between qualitative and quantitative tools are becoming blurred. Some tools are specific to certain fields or use cases. [Seek methodological advice](https://www.griffith.edu.au/research/research-services/researcher-education-development/statistical-advice) before you start!
     {% endcapture %}
 
-{% include alert.md text=text color="warning" %}
+{% include alert.html text=text color="warning" %}
 
 
 {% capture outofscope %}
 Note: an explanation of how these tools work is beyond the scope of this workshop!
 {% endcapture %}
 
-{% include alert.md text=outofscope color="info" %}
+{% include alert.html text=outofscope color="info" %}
 
 {% capture quant %}
  - [SPSS](https://www.griffith.edu.au/student-computing/available-software) - Griffith provided - limited support
@@ -18,6 +18,6 @@ Note: an explanation of how these tools work is beyond the scope of this worksho
  - [SAS](https://www.griffith.edu.au/student-computing/available-software)
  {% endcapture %}
 
-{% include card.md header="🧮 Quantitative analysis" text=quant %}
+{% include card.html header="🧮 Quantitative analysis" text=quant %}
 
 ___
