@@ -13,20 +13,21 @@ A new stable of lightweight apps designed to help researchers connect their thou
 {% include figure.html img="Roam-Group-min.png" alt="Roam Research linked notes" width="80%" %}
 
  **[Notion](http://www.notion.so)** 
-> Notion bills itself as an all in one workspace. It allows you to make any number of pages, tables, links, databases and link them all together in just about any way imaginable. There are many 
-> Free for education (sign in with Google using Griffith ID). 
-> Notion has just released an API making it more interoperable with other application. 
+
+Notion bills itself as an all in one workspace. It allows you to make any number of pages, tables, links, databases and link them all together in just about any way imaginable. It's free for education (sign in with Google using Griffith ID). Notion has just released an API making it more interoperable with other application. 
 
 **[Roam Research](https://roamresearch.com)**
+
 Roam Research is popular with academics. It is a paid service and web-only at this stage. 
 
 **[Obsidian](https://obsidian.md)** 
+
 Obsidian is free and open-source and is developing rapidly.
 
 **[Microsoft OneNote](https://www.onenote.com/hrd)**
-> While OneNote can technically do linked notes, it is not specifically built for it. 
 
- {% endcapture %}
+While OneNote can technically do linked notes, it is not specifically built for it.
+{% endcapture %}
 
 {% include card.html header="<i class='fas fa-project-diagram'></i> Connected note taking apps" text=connectednotes %}
 
@@ -52,11 +53,13 @@ Obsidian is free and open source, and has many plug-ins that extend its capabili
 ___
 
 {% capture notes %}
+There are many other note-taking apps to suit every fancy.
+
  - [Airtable](www.airtable.com) - online relational database
- - [Evernote](https://evernote.com)
+ - [Evernote](https://evernote.com) - a venerable classic
  - [Rocketbook](https://getrocketbook.com.au/) is a new tool introduced by a previous attendee at this workshop. It captures your written notes in a paper book and converts it to digital text.
  {% endcapture %}
- {% include card.html header="📒 Other note taking apps" text=notes %}
+ {% include card.html header="<i class='fas fa-sticky-note'></i> Other note taking apps" text=notes %}
 
 
 
