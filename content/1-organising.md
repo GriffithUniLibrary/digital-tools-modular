@@ -24,7 +24,7 @@ A new stable of lightweight apps designed to help researchers connect their thou
 {% include card.html header="<i class='fas fa-project-diagram'></i> Connected note taking apps" text=connectednotes %}
 
 {% capture bestconnected %}
-{% include figure.html img="icon_notion.png" alt="Notion app icon" caption="The most popular connected note taking app" width="80px" %}
+{% include figure.html img="icon_notion.png" alt="Notion app icon" width="80px" %}
 
 Our recommendation: **Notion**
 
@@ -34,7 +34,7 @@ Notion is free for educational users. It is the easiest to get started with and 
 {% include alert.html text=bestconnected color="success" %}
 
 {% capture runnerup %}
-{% include figure.html img="icon_obsidian.png" alt="Obsidian Icon" caption="Catching up quickly and a keen userbase" width="80px" %}
+{% include figure.html img="icon_obsidian.png" alt="Obsidian Icon" width="80px" %}
 
 Runner up: **Obsidian**
 
@@ -64,5 +64,5 @@ A mind map is a fantasic way to see and develop your ideas. You can mind maps to
  - [Scapple](https://www.literatureandlatte.com/scapple/overview)
  - [MindJet](https://www.mindjet.com)
 {% endcapture %}
-{% include card.html header="<i class='fas fa-brain'></i> Mind-mapping" text=mindmaps %}
+{% include card.html header="<i class='fas fa-brain' color='pink'></i> Mind-mapping" text=mindmaps %}
 
