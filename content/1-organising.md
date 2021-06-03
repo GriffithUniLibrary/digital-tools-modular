@@ -28,7 +28,7 @@ Obsidian is free and open-source and is developing rapidly.
 
  {% endcapture %}
 
-{% include card.html header="📒 Connected note taking apps" text=connectednotes %}
+{% include card.html header="<i class="fas fa-project-diagram"></i> Connected note taking apps" text=connectednotes %}
 
 {% capture bestconnected %}
 Our recommendation: **Notion**
@@ -47,6 +47,7 @@ Obsidian is free and open source, and has many plug-ins that extend its capabili
 {% endcapture %}
 {% include alert.html text=runnerup color="success" %}
 
+___
 
 {% capture notes %}
  - [Airtable](www.airtable.com) - online relational database
