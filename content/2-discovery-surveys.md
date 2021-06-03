@@ -1,6 +1,6 @@
 {% capture surveys %}
 
-{% include card.html header="<i class='fas fa-paperclip'></i> Reference management software" text="[Get advice from a qualified statistician](https://www.griffith.edu.au/research/research-services/researcher-education-development/statistical-advice) before you design and deploy your survey. They will help you understand the impact your survey and question design will have on the final data output." %}
+{% include alert.html text="[Get advice from a qualified statistician](https://www.griffith.edu.au/research/research-services/researcher-education-development/statistical-advice) before you design and deploy your survey. They will help you understand the impact your survey and question design will have on the final data output." color="warning" %}
 
 {% capture text %}
 
@@ -8,7 +8,7 @@
  - [RedCap](https://www151.griffith.edu.au/redcap/) is also free and Griffith-supported. It is better suited to clinical and longitudinal studies. Training resources are still under development. 
 
 {% endcapture %}
-{% include card.html header="Recommended options" text=text %}
+{% include card.html header="Survey Tools" text=text %}
 
  
 {% capture text %}
@@ -22,4 +22,4 @@ These options are popular, but don't come with any support from the University.
 {% include card.html header="Other options" text=text %}
 
 {% endcapture %}
-{% include card.html header="<i class='fas fa-paperclip'></i> Reference management software" text=surveys %}
+{% include card.html header="Alternative survey tools" text=surveys %}

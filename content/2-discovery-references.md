@@ -9,6 +9,7 @@ These options are popular, but don't come with any support from the University.
 
  - [Papers](https://www.papersapp.com)
  - [F1000](https://f1000workspace.com/?lg)
- - [BibTex](https://www.bibtex.org){% endcapture %}
+ - [BibTex](https://www.bibtex.org)
+{% endcapture %}
 {% include card.html header="Other options" text=text %}
 ___
