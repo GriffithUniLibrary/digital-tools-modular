@@ -12,3 +12,5 @@ description: Analysing your data will happen over several stages.
 {% include_relative 3-analysis-text.md %}
 
 {% include_relative 3-analysis-visualisation.md %}
+
+{% include alert.html text="Fully analysed, it's time to move to the writing phase. " color="success" %}
