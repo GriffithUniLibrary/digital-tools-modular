@@ -24,21 +24,21 @@ A new stable of lightweight apps designed to help researchers connect their thou
 {% include card.html header="<i class='fas fa-project-diagram'></i> Connected note taking apps" text=connectednotes %}
 
 {% capture bestconnected %}
-Our recommendation: **Notion**
+**Our recommendation: Notion**
 
 Notion is free for educational users. It is the easiest to get started with and the most visually attractive (if you like that sort of thing). There is a large and active community sharing Notion dashboards and designs, and many YouTube accounts describing how they use Notion to manage their study and life. 
-{% include figure.html img="icon_notion.png" alt="Notion app icon" width="80px" %}
+<!--{% include figure.html img="icon_notion.png" alt="Notion app icon" width="80px" %}-->
 {% endcapture %}
 
 {% include alert.html text=bestconnected color="success" %}
 
 {% capture runnerup %}
-Runner up: **Obsidian**
+**Runner up: Obsidian**
 
 Obsidian is free and open source, and has many plug-ins that extend its capability. Its documents are plain Markdown (.md) text files, meaning it's extremely easy to migrate to and from the app to any other. 
-{% include figure.html img="icon_obsidian.png" alt="Obsidian Icon" width="80px" %}
+<!-- {% include figure.html img="icon_obsidian.png" alt="Obsidian Icon" width="80px" %} -->
 {% endcapture %}
-{% include alert.html text=runnerup color="success" %}
+{% include alert.html text=runnerup color="info" %}
 
 ___
 
@@ -64,3 +64,11 @@ A mind map is a fantasic way to see and develop your ideas. You can mind maps to
 {% endcapture %}
 {% include card.html header="<i class='fas fa-brain' color='pink'></i> Mind-mapping" text=mindmaps %}
 
+{% capture bestmind %}
+**Our recommendation: Diagrams.net**
+
+Free and open-source, fully-featured, highly integrated. What's not to like?
+
+{% endcapture %}
+
+{% include alert.html text=bestmind color="success" %}
