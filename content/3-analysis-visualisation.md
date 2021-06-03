@@ -27,6 +27,6 @@ RED workshops on [data visualisation and data storytelling](https://app.secure.g
 
 Activity: Want to try out some data visualisation?
 
-{% include button.md text="Go to the Tableau activity" link="activity-tableau.html" color="info" %}
+{% include button.html text="Go to the Tableau activity" link="activity-tableau.html" color="info" %}
 
 ___

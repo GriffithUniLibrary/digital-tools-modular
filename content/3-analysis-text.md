@@ -10,7 +10,7 @@
 
 Want to try out analysing some text? This is fun!
 
-{% include button.md text="Go to the Voyant activity" link="activity-voyant.html" color="info" %}
+{% include button.html text="Go to the Voyant activity" link="activity-voyant.html" color="info" %}
 
 ___
 
