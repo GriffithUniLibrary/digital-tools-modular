@@ -3,7 +3,7 @@
 {% capture text %}
 No matter what tool you use, you'll need a little bit of training to make good data visualisations. RED offers workshops on [data visualisation and data storytelling](https://app.secure.griffith.edu.au/events/category/developing-researcher-training-program). The Library has also produced an [online introduction](https://sway.office.com/O9vEKmTmBXPxGOnE) you might find useful.
 {% endcapture %}
-{% include alert.html text=text color="warning" %}
+{% include alert.html text=text color="info" %}
 
 {% capture dataviz %}
 - **[RAWGraphs](https://app.rawgraphs.io)** - Free and open source, secure browser-based visualisation (you can also run it locally, i.e. outside of a browser). Intended to 'bridge gap between spreadsheet applications and graphics editors'. Version 2.0 beta is available.
