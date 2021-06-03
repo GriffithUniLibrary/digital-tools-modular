@@ -13,9 +13,13 @@ Note: an explanation of how these tools work is beyond the scope of this worksho
 
 {% capture quant %}
  - [SPSS](https://www.griffith.edu.au/student-computing/available-software) - Griffith provided - limited support
+
  - [Matlab](https://www.mathworks.com/products/matlab.html) - available through some departments
+
  - [STATA](https://www.stata.com/)
+
  - [SAS](https://www.griffith.edu.au/student-computing/available-software)
+ 
  {% endcapture %}
 
 {% include card.html header="<i class='fas fa-sort-amount-down'></i> Quantitative analysis" text=quant %}
