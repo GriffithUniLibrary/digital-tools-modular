@@ -11,3 +11,4 @@ description: Analysing your data will happen over several stages.
 
 {% include_relative 3-analysis-text.md %}
 
+{% include_relative 3-analysis-visualisation.md %}

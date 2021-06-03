@@ -19,10 +19,4 @@ These options are popular, but don't come with any support from the University.
 {% endcapture %}
 {% include card.html header="Other options" text=surveysalt %}
 
-{% capture bestsurvey %}
-**Our recommendation: Endnote**
-
-It's not necessarily the most loved, but it's the one that Griffith supports. We offer workshops and direct consultations on EndNote so it's your best bet if you ever run in to trouble.
-{% endcapture %}
-
-{% include alert.html text=bestsurvey color="info" %}
+___
