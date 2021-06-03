@@ -27,6 +27,8 @@ A new stable of lightweight apps designed to help researchers connect their thou
  {% endcapture %}
  {% include card.html header="📒 Other note taking apps" text=notes %}
 
+<!--
+
 {% capture mindmaps %}
  - ⭐️ [Diagrams.net](https://app.diagrams.net/) Fully free, with web and desktop versions. A wide range of templates. Integrates with OneDrive and Google Drive.
  - [MindMeister](https://www.mindmeister.com) - mind mapping tool. connect through O365 at Griffith
@@ -35,3 +37,4 @@ A new stable of lightweight apps designed to help researchers connect their thou
  - [MindJet](https://www.mindjet.com)
 {% endcapture %}
 {% include card.html header="🧠 Mind-mapping" text=mindmaps %}
+-->
