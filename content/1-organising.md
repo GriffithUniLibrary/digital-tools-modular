@@ -10,15 +10,18 @@ description: >
 {% capture connectednotes %}
 A new stable of lightweight apps designed to help researchers connect their thoughts together have begun to emerge. The idea behind their popularity is that knowledge tends to work associatively rather than hierachically. Most or all of them use Markdown syntax for writing. 
 
- **[Notion](www.notion.so)** 
+{% include figure.html img="Roam-Group-min.png" alt="Roam Research linked notes" width="80%" %}
+
+ **[Notion](http://www.notion.so)** 
 > Notion bills itself as an all in one workspace. It allows you to make any number of pages, tables, links, databases and link them all together in just about any way imaginable. There are many 
 > Free for education (sign in with Google using Griffith ID). 
 > Notion has just released an API making it more interoperable with other application. 
 
 **Roam Research**
+Roam Research is popular with academics. It is a paid service and web-only at this stage. 
 
 **Obsidian** 
-
+Obsidian is free and open-source and is developing rapidly.
 
 **[Microsoft OneNote](https://www.onenote.com/hrd)**
 > While OneNote can technically do linked notes, it is not specifically built for it. 
@@ -39,7 +42,7 @@ Not only is Notion free for educational users, it is the easiest to get started 
 
 Runner up: **Obsidian**
 
-Obsidian is free and open source 
+Obsidian is free and open source, and has many plug-ins that extend its capability. Its documents are plain Markdown (.md) text files, meaning it's extremely easy to migrate to and from the app to any other. 
 
 
 {% capture notes %}
