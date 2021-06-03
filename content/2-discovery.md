@@ -10,3 +10,5 @@ description: When you strike out and start reading or catpuring data, how will y
 {% include_relative 2-discovery-references.md %}
 
 {% include_relative 2-discovery-surveys.md %}
+
+{% include alert.html text="Your data and literature has been collected. It's time to move to the analysis phase. " color="success" %}
