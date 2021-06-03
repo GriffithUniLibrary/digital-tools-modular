@@ -16,6 +16,7 @@ A new stable of lightweight apps designed to help researchers connect their thou
 > Free for education (sign in with Google using Griffith ID). 
 > Notion has just released an API making it more interoperable with other application. 
  - ⭐️ [Microsoft OneNote](https://www.onenote.com/hrd)
+ {% endcapture %}
 
 {% include card.html header="📒 Connected note taking apps" text=connectednotes %}
 
