@@ -6,7 +6,7 @@
  - [RedCap](https://www151.griffith.edu.au/redcap/) is also free and Griffith-supported. It is better suited to clinical and longitudinal studies. Training resources are still under development. 
 
 {% endcapture %}
-{% include card.html header="Survey Tools" text=surveys %}
+{% include card.html header="<i class='fas fa-poll'></i> Survey Tools" text=surveys %}
 
  
 {% capture surveysalt %}
@@ -25,4 +25,4 @@ These options are popular, but don't come with any support from the University.
 It's not necessarily the most loved, but it's the one that Griffith supports. We offer workshops and direct consultations on EndNote so it's your best bet if you ever run in to trouble.
 {% endcapture %}
 
-{% include alert.html text=bestsurvey color="success" %}
+{% include alert.html text=bestsurvey color="info" %}

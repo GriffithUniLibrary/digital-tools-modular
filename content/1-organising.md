@@ -77,6 +77,6 @@ A mind map is a fantasic way to see and develop your ideas. You can mind maps to
 Free and open-source, fully-featured, highly integrated. What's not to like?
 {% endcapture %}
 
-{% include alert.html text=bestmind color="success" %}
+{% include alert.html text=bestmind color="info" %}
 
 {% include alert.html text="Now that you're completely organised, it's time to look at some tools for capturing data." color="success" %}

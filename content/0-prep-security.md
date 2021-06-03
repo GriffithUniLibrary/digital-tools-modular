@@ -22,10 +22,11 @@ You could, but you would be missing out on a few of the key benefits of password
  - [1Password](https://1password.com) - high quality commercial (paid) option. It's been around along time and has a good reputation.
  - [Dashlane](https://www.dashlane.com)
 {% endcapture %}
-{% include card.html header="Recommended password managers" text=pwmanagers %}
+{% include card.html header="Password managers" text=pwmanagers %}
 
-{% capture pwrecommended %}Our recommendation: **Bitwarden**
+{% capture pwrecommended %}
+**Our recommendation: Bitwarden**
 
 Although LastPass is offered by Griffith, it is not as seamless as Bitwarden, and does not necessarily come with you if you leave Griffith. For that reason, we recommend going with Bitwarden. 
 {% endcapture %}
-{% include alert.html text=pwrecommended color="success" %}
+{% include alert.html text=pwrecommended color="info" %}
