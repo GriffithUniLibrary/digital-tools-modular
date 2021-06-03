@@ -27,7 +27,7 @@ It's much better for reliability to entrust your data storage to a cloud provide
 {% capture note %}
 **Note:** When signing in to OneDrive, be sure to use your Griffith credentials rather than a personal Microsoft account.
 {% endcapture %}
-{% include alert.html text=note color="info" %}
+{% include alert.html text=note color="tertiary" %}
 
 
 {% capture cloudstor %}
