@@ -42,6 +42,6 @@ Tableau can produce beautiful results quickly and is free to academic researcher
   );
 </script>
 
-Activity: Want to try out some data visualisation?
+Activity: Want to try out some data visualisation? Of course you do!
 
 {% include button.html text="Go to the Tableau activity" link="activity-tableau.html" color="info" %}
