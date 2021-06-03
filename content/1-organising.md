@@ -31,5 +31,6 @@ A new stable of lightweight apps designed to help researchers connect their thou
  - [MindMeister](https://www.mindmeister.com) - mind mapping tool. connect through O365 at Griffith
  - [MindNode](https://mindnode.com) is a popular Mac and iOS option.
  - [Scapple](https://www.literatureandlatte.com/scapple/overview)
- - [MindJet](https://www.mindjet.com){% endcapture %}
+ - [MindJet](https://www.mindjet.com)
+{% endcapture %}
 {% include card.html header="🧠 Mind-mapping" text=mindmaps %}
