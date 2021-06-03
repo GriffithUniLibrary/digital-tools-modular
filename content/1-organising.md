@@ -20,6 +20,8 @@ A new stable of lightweight apps designed to help researchers connect their thou
 
 {% include card.html header="📒 Connected note taking apps" text=connectednotes %}
 
+<!--
+
 {% capture notes }
  - [Airtable](www.airtable.com) - online relational database
  - [Evernote](https://evernote.com)
@@ -27,7 +29,7 @@ A new stable of lightweight apps designed to help researchers connect their thou
  {% endcapture %}
  {% include card.html header="📒 Other note taking apps" text=notes %}
 
-<!--
+
 
 {% capture mindmaps %}
  - ⭐️ [Diagrams.net](https://app.diagrams.net/) Fully free, with web and desktop versions. A wide range of templates. Integrates with OneDrive and Google Drive.
