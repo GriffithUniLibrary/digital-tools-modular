@@ -31,17 +31,19 @@ Obsidian is free and open-source and is developing rapidly.
 {% include card.html header="<i class='fas fa-project-diagram'></i> Connected note taking apps" text=connectednotes %}
 
 {% capture bestconnected %}
-Our recommendation: **Notion**
 {% include figure.html img="icon_notion.png" alt="Notion app icon" caption="The most popular connected note taking app" width="80px" %}
 
-Not only is Notion free for educational users, it is the easiest to get started with and the most visually attractive (if you like that sort of thing). There is a large and active community sharing Notion dashboards and designs, and many YouTube accounts describing how they use Notion to manage their study and life. 
+Our recommendation: **Notion**
+
+Notion is free for educational users. It is the easiest to get started with and the most visually attractive (if you like that sort of thing). There is a large and active community sharing Notion dashboards and designs, and many YouTube accounts describing how they use Notion to manage their study and life. 
 {% endcapture %}
 
 {% include alert.html text=bestconnected color="success" %}
 
 {% capture runnerup %}
+{% include figure.html img="icon_obsidian.png" alt="Obsidian Icon" caption="Catching up quickly and a keen userbase" width="80px" %}
+
 Runner up: **Obsidian**
-{% include figure.html img="icon_obsidian.png" alt="Obsidian Icon" caption="Catching up quickly and a keen userbase" width="80px" align="left" %}
 
 Obsidian is free and open source, and has many plug-ins that extend its capability. Its documents are plain Markdown (.md) text files, meaning it's extremely easy to migrate to and from the app to any other. 
 {% endcapture %}
