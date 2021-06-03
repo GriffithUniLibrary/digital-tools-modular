@@ -12,21 +12,13 @@ A new stable of lightweight apps designed to help researchers connect their thou
 
 {% include figure.html img="Roam-Group-min.png" alt="Roam Research linked notes" width="80%" %}
 
- **[Notion](http://www.notion.so)** 
+- **[Notion](http://www.notion.so)**: Notion bills itself as an all in one workspace. It allows you to make any number of pages, tables, links, databases and link them all together in just about any way imaginable. It's free for education (sign in with Google using Griffith ID). Notion has just released an API making it more interoperable with other application. 
 
-Notion bills itself as an all in one workspace. It allows you to make any number of pages, tables, links, databases and link them all together in just about any way imaginable. It's free for education (sign in with Google using Griffith ID). Notion has just released an API making it more interoperable with other application. 
+- **[Roam Research](https://roamresearch.com)**: Roam Research is popular with academics. It is a paid service and web-only at this stage. 
 
-**[Roam Research](https://roamresearch.com)**
+- **[Obsidian](https://obsidian.md)**: Obsidian is free and open-source and is developing rapidly.
 
-Roam Research is popular with academics. It is a paid service and web-only at this stage. 
-
-**[Obsidian](https://obsidian.md)** 
-
-Obsidian is free and open-source and is developing rapidly.
-
-**[Microsoft OneNote](https://www.onenote.com/hrd)**
-
-While OneNote can technically do linked notes, it is not specifically built for it.
+- **[Microsoft OneNote](https://www.onenote.com/hrd)**: While OneNote can technically do linked notes, it is not specifically built for it.
 {% endcapture %}
 
 {% include card.html header="<i class='fas fa-project-diagram'></i> Connected note taking apps" text=connectednotes %}
@@ -64,11 +56,13 @@ There are many other note-taking apps to suit every fancy.
 
 
 {% capture mindmaps %}
+A mind map is a fantasic way to see and develop your ideas. You can mind maps to your connected notes app (above) to get the best of both worlds. 
+
  - ⭐️ [Diagrams.net](https://app.diagrams.net/) Fully free, with web and desktop versions. A wide range of templates. Integrates with OneDrive and Google Drive.
  - [MindMeister](https://www.mindmeister.com) - mind mapping tool. connect through O365 at Griffith
  - [MindNode](https://mindnode.com) is a popular Mac and iOS option.
  - [Scapple](https://www.literatureandlatte.com/scapple/overview)
  - [MindJet](https://www.mindjet.com)
 {% endcapture %}
-{% include card.html header="🧠 Mind-mapping" text=mindmaps %}
+{% include card.html header="<i class='fas fa-brain'></i> Mind-mapping" text=mindmaps %}
 
