@@ -6,5 +6,8 @@ description: When you strike out and start reading or catpuring data, how will y
 
 ---
 
-# Phase 2: Discovery
+{% include_relative 2-discovery-citation.md %}
 
+{% include_relative 2-discovery-references.md %}
+
+{% include_relative 2-discovery-surveys.md %}
