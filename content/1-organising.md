@@ -24,7 +24,7 @@ A new stable of lightweight apps designed to help researchers connect their thou
  - [Airtable](www.airtable.com) - online relational database
  - [Evernote](https://evernote.com)
  - [Rocketbook](https://getrocketbook.com.au/) is a new tool introduced by a previous attendee at this workshop. It captures your written notes in a paper book and converts it to digital text.
- {% endcapture notes %}
+ {% endcapture %}
  {% include card.html header="📒 Other note taking apps" text=notes %}
 
 {% capture mindmaps %}
