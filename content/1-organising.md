@@ -41,7 +41,7 @@ Not only is Notion free for educational users, it is the easiest to get started 
 
 {% capture runnerup %}
 Runner up: **Obsidian**
-{% include figure.html img="icon_obsidian.png" alt="Obsidian Icon" width="80px" %}
+{% include figure.html img="icon_obsidian.png" alt="Obsidian Icon" caption="Catching up quickly and a keen userbase" width="80px" align="left" %}
 
 Obsidian is free and open source, and has many plug-ins that extend its capability. Its documents are plain Markdown (.md) text files, meaning it's extremely easy to migrate to and from the app to any other. 
 {% endcapture %}
