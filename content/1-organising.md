@@ -20,9 +20,8 @@ A new stable of lightweight apps designed to help researchers connect their thou
 
 {% include card.html header="📒 Connected note taking apps" text=connectednotes %}
 
-<!--
 
-{% capture notes }
+{% capture notes %}
  - [Airtable](www.airtable.com) - online relational database
  - [Evernote](https://evernote.com)
  - [Rocketbook](https://getrocketbook.com.au/) is a new tool introduced by a previous attendee at this workshop. It captures your written notes in a paper book and converts it to digital text.
@@ -39,4 +38,4 @@ A new stable of lightweight apps designed to help researchers connect their thou
  - [MindJet](https://www.mindjet.com)
 {% endcapture %}
 {% include card.html header="🧠 Mind-mapping" text=mindmaps %}
--->
+
