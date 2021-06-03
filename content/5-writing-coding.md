@@ -25,17 +25,24 @@ These text editors are all oriented towards programmign and editing code. They h
 
 Microsoft's editor is free, highly extensible (meaning it has lots of plugins to improve its features) and integrates directly with GitHub. I'm writing these words in VS Code right now!
 {% endcapture %}
-{% include alert.html text=besttext color="info" %}
+{% include alert.html text=besttext color="primary" %}
 
 ### Markdown editors
 
+{% capture aboutmarkdown %}
+`Markdown` is a simple and popular text formatting syntax. It has many advantages for writing for the web, including the fact that it produces plain text files, which are easily shared. It's worth becoming familiar with it. This site is written in Markdown.
+{% endcapture %}
+{% include alert.html text=aboutmarkdown color="info" %}
 
-`Markdown` is a simple and popular text formatting syntax. It's worth becoming familiar with it. This site is written in Markdown.
+{% capture markdowntools %}
+All of the programming text editors above support Markdown. Below are some dedicated Markdown editors. 
 
-**The tools**
- - [Dillinger](https://dillinger.io) and [Stackedit](https://stackedit.io) are popular and free online Markdown editors.
- - [Ulysses](https://ulysses.app) is a general-purpose writing app with good Markdown support.
- - [Marked 2 (Mac)](https://marked2app.com)
+- **[Dillinger](https://dillinger.io)**:  popular and free online Markdown editor.
+- **[Stackedit](https://stackedit.io)**: popular and free online Markdown editor.
+- **[Ulysses](https://ulysses.app)**: a general-purpose writing app with good Markdown support.
+- **[Marked 2 (Mac)](https://marked2app.com)**
+{% endcapture %}
+{% include card.html header="<i class='fab fa-markdown'></i> Programming text editors" text=markdowntools %}
 
 {% capture text %}
     **What's a development environment?**
