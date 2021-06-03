@@ -54,6 +54,7 @@ There are many other note-taking apps to suit every fancy.
  - [Airtable](www.airtable.com) - online relational database
  - [Evernote](https://evernote.com) - a venerable classic
  - [Rocketbook](https://getrocketbook.com.au/) is a new tool introduced by a previous attendee at this workshop. It captures your written notes in a paper book and converts it to digital text.
+ - [DEVONThink](https://www.devontechnologies.com) (Mac only): A unified document, note, file and thought storage, management and linking database.
  {% endcapture %}
  {% include card.html header="<i class='fas fa-sticky-note'></i> Other note taking apps" text=notes %}
 

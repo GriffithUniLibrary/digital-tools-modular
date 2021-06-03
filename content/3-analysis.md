@@ -1,7 +1,8 @@
 ---
 title: Analysing your data
 nav: Analysis
-topics: 
+topics: Data cleaning, qualitative analysis, quantitative analysis, 
+description: Analysing your data will happen over several stages.
 ---
 
 To learn about using `workshop-template-b`, the [Readme](https://github.com/evanwill/workshop-template-b/blob/master/README.md) and content pages have some documentation.
