@@ -6,16 +6,23 @@ description: >
     This is one of the most exciting areas of development in digital tools for research. How to organise and connect your thoughts and plans so that you become a knowledge powerhouse!
 
 ---
-### New Tools for organising your thoughts
-
-A new stable of lightweight apps designed to help researchers connect their thoughts together have begun to emerge. Most or all of them use Markdown syntax for writing. 
 
 {% capture connectednotes %}
+A new stable of lightweight apps designed to help researchers connect their thoughts together have begun to emerge. The idea behind their popularity is that knowledge tends to work associatively rather than hierachically. Most or all of them use Markdown syntax for writing. 
+
  **[Notion](www.notion.so)** 
 > Notion bills itself as an all in one workspace. It allows you to make any number of pages, tables, links, databases and link them all together in just about any way imaginable. There are many 
 > Free for education (sign in with Google using Griffith ID). 
 > Notion has just released an API making it more interoperable with other application. 
- - ⭐️ [Microsoft OneNote](https://www.onenote.com/hrd)
+
+**Roam Research**
+
+**Obsidian** 
+
+
+**[Microsoft OneNote](https://www.onenote.com/hrd)**
+> While OneNote can technically do linked notes, it is not specifically built for it. 
+
  {% endcapture %}
 
 {% include card.html header="📒 Connected note taking apps" text=connectednotes %}
