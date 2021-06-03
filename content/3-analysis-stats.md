@@ -18,6 +18,4 @@ Note: an explanation of how these tools work is beyond the scope of this worksho
  - [SAS](https://www.griffith.edu.au/student-computing/available-software)
  {% endcapture %}
 
-{% include card.html header="🧮 Quantitative analysis" text=quant %}
-
-___
+{% include card.html header="<i class='fas fa-sort-amount-down'></i> Quantitative analysis" text=quant %}

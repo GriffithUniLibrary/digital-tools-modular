@@ -17,7 +17,7 @@
 Tableau can produce beautiful results quickly and is free to academic researchers. It's not supported by the University, but neither are any of the others. 
 {% endcapture %}
 
-{% include alert.html text=bestdataviz color="info" %}
+{% include alert.html text=bestdataviz color="primary" %}
 
 {% capture text %}
 RED workshops on [data visualisation and data storytelling](https://app.secure.griffith.edu.au/events/category/developing-researcher-training-program) are available and the Library has produced an [online introduction](https://sway.office.com/O9vEKmTmBXPxGOnE) you might find useful.
@@ -28,5 +28,3 @@ RED workshops on [data visualisation and data storytelling](https://app.secure.g
 Activity: Want to try out some data visualisation?
 
 {% include button.html text="Go to the Tableau activity" link="activity-tableau.html" color="info" %}
-
-___

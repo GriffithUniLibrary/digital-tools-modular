@@ -42,7 +42,7 @@ All of the programming text editors above support Markdown. Below are some dedic
 - **[Ulysses](https://ulysses.app)**: a general-purpose writing app with good Markdown support.
 - **[Marked 2 (Mac)](https://marked2app.com)**
 {% endcapture %}
-{% include card.html header="<i class='fab fa-markdown'></i> Programming text editors" text=markdowntools %}
+{% include card.html header="<i class='fab fa-markdown'></i> Markdown editors" text=markdowntools %}
 
 {% capture text %}
 **What's a development environment?**: It's a set of tools that allow you to write, debug, build and run code. Some development environments support a single language  or platform (like R), and some (like Visual Studio) support multiple languages and platforms.
@@ -62,12 +62,12 @@ All of the programming text editors above support Markdown. Below are some dedic
 {% include card.html header="<i class='fas fa-bug'></i> Development languages and environments" text=environments %}
 
 {% capture programminghelp %}
+**Ways to get help at Griffith:**
 - [Software carpentry](https://hackyhourgriffith.wordpress.com/events/soft-carp/)
 - [Hacky Hour](https://hackyhourgriffith.wordpress.com)
 {% endcapture %}
-{% include alert.html header="Ways to get help at Griffith" text=programminghelp color="info" %}
+{% include alert.html text=programminghelp color="info" %}
 
--->
 ---
 
 {% capture text %}

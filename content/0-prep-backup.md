@@ -27,7 +27,7 @@ It's much better for reliability to entrust your data storage to a cloud provide
 {% capture note %}
 **Note:** When signing in to OneDrive, be sure to use your Griffith credentials rather than a personal Microsoft account.
 {% endcapture %}
-{% include alert.html text=note color="tertiary" %}
+{% include alert.html text=note color="info" %}
 
 
 {% capture cloudstor %}
@@ -36,7 +36,7 @@ It's much better for reliability to entrust your data storage to a cloud provide
 [Cloudstor](https://cloudstor.aarnet.edu.au) is powered by AARNet (The Australian Academic Research Network) and provides students and researchers with a Terabyte of free, ultra-fast storage. It's easy to set up and works just like Dropbox.
 {% endcapture %}
 
-{% include alert.html text=cloudstor color="info" %}
+{% include alert.html text=cloudstor color="primary" %}
 
 {% include video-embed.html youtubeid="mGaqxrrxfgA" caption="Signing in to Cloustor" %}
 
@@ -80,10 +80,10 @@ You should run a backup tool *in addition* to the services above. Your best, mos
 The best backup is the one you will use. That means set-and-forget is best. Buy a simple external hard drive and leave it plugged in to your computer, or place a weekly calendar reminder to plug it in. Let the operating system do the rest. 
 {% endcapture %}
 
-{% include alert.html text=timemachine color="info" %}
+{% include alert.html text=timemachine color="primary" %}
 
 
 {% capture why %}
 Because (a) you will inevitably forget to do it at some point, and (b) each new copy replaces what was there before meaning you can't recover older versions of your work.
 {% endcapture %}
-{% include modal.html button="Why is drag-and-drop the worst way to back up?" color="error" title="Why drag and drop is a bad idea" text=why %}
+{% include modal.html button="Why is drag-and-drop the worst way to back up?" color="primary" title="Why drag and drop is a bad idea" text=why %}
