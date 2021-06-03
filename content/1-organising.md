@@ -20,6 +20,20 @@ A new stable of lightweight apps designed to help researchers connect their thou
 
 {% include card.html header="📒 Connected note taking apps" text=connectednotes %}
 
+{% capture bestconnected %}
+Our recommendation: **Notion**
+{% include figure.html img="icon_notion.png" alt="Notion app icon" caption="Notion is the most popular connected note taking app" width="80px" %}
+
+Not only is Notion free for educational users, it is the easiest to get started with and the most visually attractive (if you like that sort of thing). There is a large and active community sharing Notion dashboards and designs, and many YouTube accounts describing how they use Notion to manage their study and life. 
+{% endcapture %}
+
+{% include alert.html text=bestconnected color="success" %}
+
+
+Runner up: **Obsidian**
+
+Obsidian is free and open source 
+
 
 {% capture notes %}
  - [Airtable](www.airtable.com) - online relational database
