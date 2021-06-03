@@ -17,10 +17,10 @@ A new stable of lightweight apps designed to help researchers connect their thou
 > Free for education (sign in with Google using Griffith ID). 
 > Notion has just released an API making it more interoperable with other application. 
 
-**Roam Research**
+**[Roam Research](https://roamresearch.com)**
 Roam Research is popular with academics. It is a paid service and web-only at this stage. 
 
-**Obsidian** 
+**[Obsidian](https://obsidian.md)** 
 Obsidian is free and open-source and is developing rapidly.
 
 **[Microsoft OneNote](https://www.onenote.com/hrd)**
@@ -32,17 +32,19 @@ Obsidian is free and open-source and is developing rapidly.
 
 {% capture bestconnected %}
 Our recommendation: **Notion**
-{% include figure.html img="icon_notion.png" alt="Notion app icon" caption="Notion is the most popular connected note taking app" width="80px" %}
+{% include figure.html img="icon_notion.png" alt="Notion app icon" caption="The most popular connected note taking app" width="80px" %}
 
 Not only is Notion free for educational users, it is the easiest to get started with and the most visually attractive (if you like that sort of thing). There is a large and active community sharing Notion dashboards and designs, and many YouTube accounts describing how they use Notion to manage their study and life. 
 {% endcapture %}
 
 {% include alert.html text=bestconnected color="success" %}
 
-
+{% capture runnerup %}
 Runner up: **Obsidian**
+{% include figure.html img="icon_obsidian.png" alt="Obsidian Icon" width="80px" %}
 
 Obsidian is free and open source, and has many plug-ins that extend its capability. Its documents are plain Markdown (.md) text files, meaning it's extremely easy to migrate to and from the app to any other. 
+{% include alert.html text=runnerup color="success" %}
 
 
 {% capture notes %}
