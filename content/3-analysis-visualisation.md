@@ -33,6 +33,15 @@ Tableau can produce beautiful results quickly and is free to academic researcher
 
 {% include_relative demo-chart.html %}
 
+<script>
+  // === include 'setup' then 'config' above ===
+
+  var myChart = new Chart(
+    document.getElementById('myChart'),
+    config
+  );
+</script>
+
 Activity: Want to try out some data visualisation?
 
 {% include button.html text="Go to the Tableau activity" link="activity-tableau.html" color="info" %}
