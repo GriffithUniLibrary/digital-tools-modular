@@ -44,6 +44,7 @@ Runner up: **Obsidian**
 {% include figure.html img="icon_obsidian.png" alt="Obsidian Icon" width="80px" %}
 
 Obsidian is free and open source, and has many plug-ins that extend its capability. Its documents are plain Markdown (.md) text files, meaning it's extremely easy to migrate to and from the app to any other. 
+{% endcapture %}
 {% include alert.html text=runnerup color="success" %}
 
 
