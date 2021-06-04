@@ -34,6 +34,7 @@ This section includes chart.js and adds a simple chart
 {% endcomment %}
 {% include_relative chart.md %}
 
+<div>
 <script>
   // === include 'setup' then 'config' above ===
 {% include_relative demo-chart.html %}
@@ -43,6 +44,7 @@ This section includes chart.js and adds a simple chart
     config
   );
 </script>
+</div>
 
 Activity: Want to try out some data visualisation? Of course you do!
 
