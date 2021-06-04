@@ -29,12 +29,11 @@ Tableau can produce beautiful results quickly and is free to academic researcher
 
 {% include alert.html text=bestdataviz color="primary" %}
 
-{% include_relative chart.md %}
-
-{% include_relative demo-chart.html %}
 
 <script>
   // === include 'setup' then 'config' above ===
+{% include_relative chart.md %}
+{% include_relative demo-chart.html %}
 
   var myChart = new Chart(
     document.getElementById('myChart'),
