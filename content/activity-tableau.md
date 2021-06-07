@@ -12,8 +12,6 @@ nav: false
 
 Before doing this activity you will need to install Tableau onto your computer. Tableau Public is already installed on the student-use computers at Griffith. If you are using your own computer, follow the instructions below to install Tableau.
 
-{% include button.html text="Install Tableau" link="workshop-prep.html" color="primary" %}
-
 
 {% capture text %}
 1. Download the sample data: [Queensland Hospital Procedures 2018](https://griffitheduau.sharepoint.com/sites/DigitalToolsforResearchApril2019/Shared Documents/General/Queensland Hospital Procedures 2018.xls)

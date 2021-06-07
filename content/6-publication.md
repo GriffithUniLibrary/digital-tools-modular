@@ -7,31 +7,39 @@ nav: Publication
 
 {% include figure.html img="ch-publication.png" alt="A boy speaks on the phone" caption="Hello? I'd like to tell you a story" width="75%" %}
 
-{% capture text %}Managing your profile and professional relationships is as important as your actual research.{% endcapture %}
-{% include alert.md text=text color="warning" %}
+{% capture text %}
+Managing your profile and professional relationships is as important as your actual research.
+{% endcapture %}
+{% include alert.html text=text color="warning" %}
 
 {% capture profiletools %}
-### 📣 Online profile tools
 
- - [Griffith Experts](https://experts.griffith.edu.au)
- - [ORCID](https://orcid.org)
- - [Mendeley](https://www.mendeley.com)
+ - **[Griffith Experts](https://experts.griffith.edu.au)**: All Griffith teaching staff have a profile on Griffith Experts. 
+
+ - **[ORCID](https://orcid.org)**: Your ORCiD ensures all of your published research is associated with you, regardless of institution or project. 
+
+ - **[Mendeley](https://www.mendeley.com)**: The reference manager also has sharing and social features. 
+
  - [LinkedIn](https://au.linkedin.com)
- - [Twitter](https://twitter.com)
+
+ - [Twitter](https://twitter.com): using hashtags to livetweet conferences is a favourite of researchers. 
+
+ {% include video-embed.html youtubeid="moJgWrD6dwg" caption="Example video" %}
 
 {% endcapture %} 
 
-{% include card.html header="<i class='fas fa-eye'></i> Data visualisation tools" text=dataviz %}
+{% include card.html header="<i class='fas fa-bullhorn'></i> Online profile tools" text=profiletools %}
 
  ---
 
-{% capture text %}**That's it!** For now, that's all we've got to show you. We'lre going to be developing this content further over time (the digital tools landscape never sits still). In the meantime, feel free to [ask a question](https://griffithu.padlet.org/y_banens1/60je7s1g90b3f69h){:target="_blank"}. 
+{% capture text %}
+**That's it!** For now, that's all we've got to show you. We'lre going to be developing this content further over time (the digital tools landscape never sits still). In the meantime, feel free to [ask a question](https://griffithu.padlet.org/y_banens1/60je7s1g90b3f69h){:target="_blank"}. 
 {% endcapture %}
-{% include alert.md text=text color="success" %}
+{% include alert.html text=text color="success" %}
 
 
 {% comment %}
-To learn about using `workshop-template-b`, the [Readme](https://github.com/evanwill/workshop-template-b/blob/master/README.md) and content pages have some documentation.
+To learn about using `workshop-template-b`, the [Readme](https://github.com/evanwill/workshop-template-b/blob/master/README.html) and content pages have some documentation.
 
 Workshop sites using this template:
 
