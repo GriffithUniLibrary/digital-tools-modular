@@ -6,19 +6,19 @@ The boundaries between qualitative and quantitative tools are becoming blurred. 
 
 
 {% capture outofscope %}
-Note: an explanation of how these tools work is beyond the scope of this workshop!
+**Note:** an explanation of how these tools work is beyond the scope of this workshop.
 {% endcapture %}
 
 {% include alert.html text=outofscope color="info" %}
 
 {% capture quant %}
- - [SPSS](https://www.griffith.edu.au/student-computing/available-software) - Griffith provided - limited support
+ - **[SPSS](https://www.griffith.edu.au/student-computing/available-software)**: Griffith provided, limited support
 
- - [Matlab](https://www.mathworks.com/products/matlab.html) - available through some departments
+  - **[SAS](https://www.griffith.edu.au/student-computing/available-software)**: Griffith provided, no support.
 
- - [STATA](https://www.stata.com/)
+ - **[Matlab](https://www.mathworks.com/products/matlab.html)**: available through some departments
 
- - [SAS](https://www.griffith.edu.au/student-computing/available-software)
+ - **[STATA](https://www.stata.com/)**
  
  {% endcapture %}
 
