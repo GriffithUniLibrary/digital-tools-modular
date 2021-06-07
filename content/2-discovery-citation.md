@@ -14,6 +14,6 @@ You can use verious visual tools to visualise connections between the papers in 
 - **[CitNet Explorer](https://www.citnetexplorer.nl/)**: CitNetExplorer is a software tool for visualizing and analyzing citation networks of scientific publications. It has not been updated in some time. 
 
 {% endcapture %}
-{% include card.html header="<i class='fas fa-tree'></i> Citation trees and link mapping" text=citationtools img="connected-papers.png" %}
+{% include card.html header="<i class='fas fa-tree'></i> Citation trees and link mapping" text=citationtools img="connected-papers-cropped.png" %}
 
 ___

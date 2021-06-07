@@ -2,13 +2,50 @@
 
 {% include alert.html text="[Get advice from a qualified statistician](https://www.griffith.edu.au/research/research-services/researcher-education-development/statistical-advice) before you design and deploy your survey. They will help you understand the impact your survey and question design will have on the final data output." color="warning" %}
 
- - [Lime Survey](https://prodsurvey.rcs.griffith.edu.au/doco2/) is Griffith's supported survey tool. It is fast, flexible and free. [Workshops](https://www.griffith.edu.au/research/research-services/researcher-education-development/workshop-calendar) and [video resources](https://www.youtube.com/playlist?list=PLOtTT7TqB2izC3THIFCokfIh5DwlOPePH) are available too.
- - [RedCap](https://www151.griffith.edu.au/redcap/) is also free and Griffith-supported. It is better suited to clinical and longitudinal studies. Training resources are still under development. 
+The following two survey tools are provided and supported by Griffith. We recommend that you use one of these for your research. 
+
+ - **[Lime Survey](https://prodsurvey.rcs.griffith.edu.au/doco2/)**: fast to develop, flexible and mobile-friendly. 
+
+ - **[RedCap](https://www151.griffith.edu.au/redcap/)**: better suited to clinical and longitudinal studies.
+ 
+ > [Workshops](https://www.griffith.edu.au/research/research-services/researcher-education-development/workshop-calendar) and [video resources](https://www.youtube.com/playlist?list=PLOtTT7TqB2izC3THIFCokfIh5DwlOPePH) are available.
+
+{% capture whysurveys %}
+REDCap and LimeSurvey are hosted on Griffith servers and managed by the eResearch team. This means: 
+- Your research data is securely backed up and archived according to Griffith's data retention policy,
+- Australian data laws apply,
+- [Workshops](https://www.griffith.edu.au/research/research-services/researcher-education-development/workshop-calendar) are available for both tools,
+- [video resources](https://www.youtube.com/playlist?list=PLOtTT7TqB2izC3THIFCokfIh5DwlOPePH) are available, and;
+- Technical support is avaiable for both tools.
+
+{% include figure.html img="ch-preparation.png" alt="A boy and his tiger look out to the distance" caption="Preparing to embark" width="75%" %}
+{% endcapture %}
+{% include modal.html button="Why are these tools recommended?" color="info" title="Why use LS and RC" text=whysurveys %}
+
+{% capture whysurveys %}
+This is a simple comparison of the key features of LimeSurvey and REDCap. If you're not sure which one you should use, the best thing to do is [discuss it with us](https://intranet.secure.griffith.edu.au/library/forms/help). 
+
+{% include figure.html img="survey-comparison.png" alt="Comparison chart" caption="Feature comparison between LimeSurvey and REDCap" width="75%" %}
+{% endcapture %}
+
+{% include modal.html button="Help me to choose one" color="primary" title="Help choose" text=whysurveys %}
+
+ ### Alternative options
+
+ These options are popular, but don't come with any support from the University. 
+
+ - **[Google Forms](https://docs.google.com/forms/)**
+
+ - **[Microsoft Forms](http://forms.office.com)**
+ 
+ - **[Survey Monkey](https://www.surveymonkey.com)**
+ 
+ - **[Qualtrics](https://www.qualtrics.com)** is popular in psychology. Griffith no longer holds a license so it will not be free for you to use.
 
 {% endcapture %}
-{% include card.html header="<i class='fas fa-poll'></i> Survey Tools" text=surveys %}
+{% include card.html header="<i class='fas fa-poll'></i> Survey Tools" text=surveys title="Griffith supported survey tools" %}
 
- 
+{% comment %}
 {% capture surveysalt %}
 These options are popular, but don't come with any support from the University. 
 
@@ -19,4 +56,6 @@ These options are popular, but don't come with any support from the University.
 {% endcapture %}
 {% include card.html header="Other options" text=surveysalt %}
 
-___
+{% endcomment %}
+
+ d

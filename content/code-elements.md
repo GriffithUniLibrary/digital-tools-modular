@@ -90,7 +90,7 @@ Examples below demonstrate the includes.
 
 `{% raw %}{% include video-embed.html youtubeid="moJgWrD6dwg" caption="Example video" %}{% endraw %}`
 
-{% include video-embed.html Pyoutubeid="moJgWrD6dwg" caption="Example video" %}
+{% include video-embed.html youtubeid="moJgWrD6dwg" caption="Example video" %}
 
 
 
