@@ -17,20 +17,18 @@ REDCap and LimeSurvey are hosted on Griffith servers and managed by the eResearc
 - [Workshops](https://www.griffith.edu.au/research/research-services/researcher-education-development/workshop-calendar) are available for both tools,
 - [video resources](https://www.youtube.com/playlist?list=PLOtTT7TqB2izC3THIFCokfIh5DwlOPePH) are available, and;
 - Technical support is avaiable for both tools.
-
-{% include figure.html img="ch-preparation.png" alt="A boy and his tiger look out to the distance" caption="Preparing to embark" width="75%" %}
 {% endcapture %}
-{% include modal.html button="Why are these tools recommended?" color="info" title="Why use LS and RC" text=whysurveys %}
+{% include modal.html button="Why are these tools recommended?" color="info" title="Why use LimeSurvey and REDCap" text=whysurveys %}
 
 {% capture whysurveys %}
 This is a simple comparison of the key features of LimeSurvey and REDCap. If you're not sure which one you should use, the best thing to do is [discuss it with us](https://intranet.secure.griffith.edu.au/library/forms/help). 
 
-{% include figure.html img="survey-comparison.png" alt="Comparison chart" caption="Feature comparison between LimeSurvey and REDCap" width="75%" %}
+{% include figure.html img="survey-comparison.png" alt="Comparison chart" caption="Feature comparison between LimeSurvey and REDCap" width="100%" %}
 {% endcapture %}
 
-{% include modal.html button="Help me to choose one" color="primary" title="Help choose" text=whysurveys %}
+{% include modal.html button="Help me to choose one" color="primary" title="Which survey tool should I use?" text=whysurveys %}
 
- ### Alternative options
+ ## Alternative options
 
  These options are popular, but don't come with any support from the University. 
 
@@ -57,5 +55,3 @@ These options are popular, but don't come with any support from the University.
 {% include card.html header="Other options" text=surveysalt %}
 
 {% endcomment %}
-
- d
