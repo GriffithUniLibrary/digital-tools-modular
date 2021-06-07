@@ -12,7 +12,7 @@ nav: false
 
 Before doing this activity you will need to install Tableau onto your computer. Tableau Public is already installed on the student-use computers at Griffith. If you are using your own computer, follow the instructions below to install Tableau.
 
-{% include button.md text="Install Tableau" link="workshop-prep.html" color="primary" %}
+{% include button.html text="Install Tableau" link="workshop-prep.html" color="primary" %}
 
 
 {% capture text %}
@@ -23,7 +23,7 @@ Before doing this activity you will need to install Tableau onto your computer. 
 5. Click OK
 
 The data should appear in columns on the bottom half of your screen.{% endcapture %}
-{% include card.md header="Connect your data sources" text=text %}
+{% include card.html header="Connect your data sources" text=text %}
 
 ## Prepare your data for use
 
@@ -40,34 +40,34 @@ The data should appear in columns on the bottom half of your screen.
 
 Now watch the video below which will take you through the next few stages of the activity.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/FN0jOkSiqps" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{% include video-embed.html youtubeid="FN0jOkSiqps" caption="Stepping through the Tableau activity" %}
 
 {% endcapture %}
-{% include card.md header="Connect your data sources" text=text %}
+{% include card.html header="Connect your data sources" text=text %}
 
 ## Make your first chart
 {% capture text %}
 You will start to see the power of Tableau very quickly when you move to the Worksheet. {% endcapture %}
-{% include alert.md text=text color="info" %}
+{% include alert.html text=text color="info" %}
 
 Click on 'Sheet 1' at the bottom of the window. You will see that your columns have been placed in two categories, `dimensions` and `measures`.
 
-{% include modal.md button="Tell me more" color="primary" title="Dimensions and Measures" text="A *dimension* is something that can be looked at categorically, like a list of countries. A *measure* is anything that can be put on a scale: a number, like a date, or currency." %}
+{% include modal.html button="Tell me more" color="info" title="Dimensions and Measures" text="A *dimension* is something that can be looked at categorically, like a list of countries. A *measure* is anything that can be put on a scale: a number, like a date, or currency." %}
 
 {% capture text %}
 1. Drag the dimension `Hospital name` to the `Rows` field at the top of the Worksheet
 2. Drag `Number treated` from the Measures list to the `Columns` field at the top of the worksheet.{% endcapture %}
-{% include card.md header="Make a simple bar chart" text=text %}
+{% include card.html header="Make a simple bar chart" text=text %}
 
 {% capture text %}
 Voilà! You have your first chart! <i class="far fa-chart-bar"></i>{% endcapture %}
-{% include alert.md text=text color="success" %}
+{% include alert.html text=text color="success" %}
 
 ## Add filters
 
 {% capture text %}
 Oh-oh! There's a problem. One of the bars is far larger than the others, and it's not just that one hospital has been much more efficient than all the others.{% endcapture %}
-{% include alert.md text=text color="warning" %}
+{% include alert.html text=text color="warning" %}
 
 There is an entry called `Queensland Reporting Hospitals` which records the sum of all the other entries. This is distorting the chart so we need to remove it. 
 
@@ -76,7 +76,7 @@ There is an entry called `Queensland Reporting Hospitals` which records the sum 
 2. Scroll down and uncheck the box next to `Queensland Reporting Hospitals`
 3. Click OK
 {% endcapture %}
-{% include card.md header="Add a filter to your data" text=text %}
+{% include card.html header="Add a filter to your data" text=text %}
 
 There's one more filter we need to add. In the 'Urgency' field, there is also a summary row that is distorting the data. So let's do it again for Urgency.
 
@@ -85,7 +85,7 @@ There's one more filter we need to add. In the 'Urgency' field, there is also a 
 2. Scroll down and uncheck the box next to `ALL`. Make sure the others are checked.
 3. Click OK
 {% endcapture %}
-{% include card.md header="Filter urgency results" text=text %}
+{% include card.html header="Filter urgency results" text=text %}
 
 ## Sort and colour
 
@@ -98,8 +98,9 @@ It's time to make it look a bit nicer.
 4. Click `Edit colors`
 5. Select a palette from the `Palette` drop-down. I chose 'Red-Green Diverging'
 {% endcapture %}
-{% include card.md header="Sort and colour" text=text %}
+{% include card.html header="Sort and colour" text=text %}
 
 {% capture text %}
-Try playing around with a few more of the charts in the 'Show me' palette, or dragging different dimensions and measures into the **Row** and **Column** fields. You can even drop more than one measure into one of the fields, for a multivariate chart.{% endcapture %}
-{% include alert.md text=text color="success" %}
+Try playing around with a few more of the charts in the 'Show me' palette, or dragging different dimensions and measures into the **Row** and **Column** fields. You can even drop more than one measure into one of the fields, for a multivariate chart.
+{% endcapture %}
+{% include alert.html text=text color="success" %}
