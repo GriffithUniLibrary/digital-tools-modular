@@ -23,7 +23,7 @@ It's much better for reliability to entrust your data storage to a cloud provide
 - **[Dropbox](https://www.dropbox.com/)**
 {% endcapture %}
 
-{% include card.html header="<i class='fas fa-sync'></i> Online storage & sync options" text=syncoptions img= %}
+{% include card.html header="<i class='fas fa-sync'></i> Online storage & sync options" text=syncoptions img="storage.png" %}
 
 {% capture note %}
 **Note:** When signing in to OneDrive, be sure to use your Griffith credentials rather than a personal Microsoft account.
