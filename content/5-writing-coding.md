@@ -22,7 +22,7 @@ These text editors are all oriented towards programming and editing code. They h
 - **[Visual Studio Code](code.visualstudio.com)**: Microsoft's programming-oriented text editor. Free and highly extensible. 
 
 {% endcapture %}
-{% include card.html header="<i class='fas fa-superscript'></i> Programming text editors" text=editors %}
+{% include card.html header="<i class='fas fa-superscript'></i> Programming text editors" text=editors img="code-editor.png" %}
 
 {% capture besttext %}
 **Our recommendation: Visual Studio Code**
