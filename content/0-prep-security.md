@@ -22,7 +22,7 @@ Getting used to using a password manager is a great investment in your overall e
 
 
 {% endcapture %}
-{% include card.html header="<i class='fas fa-key'> Password managers" text=pwmanagers %}
+{% include card.html header="<i class='fas fa-key'></i> Password managers" text=pwmanagers %}
 
 {% capture browser %}
 You could, but you would be missing out on a few of the key benefits of password managers, like checking that your passwords aren't being reused across services, generating new passwords for you and syncing your passwords across mobile and desktop devices.
