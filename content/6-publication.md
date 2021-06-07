@@ -24,8 +24,6 @@ Managing your profile and professional relationships is as important as your act
 
  - [Twitter](https://twitter.com): using hashtags to livetweet conferences is a favourite of researchers. 
 
- {% include video-embed.html youtubeid="moJgWrD6dwg" caption="Example video" %}
-
 {% endcapture %} 
 
 {% include card.html header="<i class='fas fa-bullhorn'></i> Online profile tools" text=profiletools %}
