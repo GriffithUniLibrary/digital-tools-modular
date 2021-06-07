@@ -10,8 +10,6 @@ description: >
 {% capture connectednotes %}
 A new stable of lightweight apps designed to help researchers connect their thoughts together have begun to emerge. The idea behind their popularity is that knowledge tends to work associatively rather than hierachically. Most or all of them use Markdown syntax for writing. 
 
-{% include figure.html img="Roam-Group-min.png" alt="Roam Research linked notes" width="80%" %}
-
 - **[Notion](http://www.notion.so)**: Notion bills itself as an all in one workspace. It allows you to make any number of pages, tables, links, databases and link them all together in just about any way imaginable. It's free for education (sign in with Google using Griffith ID). Notion has just released an API making it more interoperable with other application. 
 
 - **[Roam Research](https://roamresearch.com)**: Roam Research is popular with academics. It is a paid service and web-only at this stage. 
@@ -21,7 +19,7 @@ A new stable of lightweight apps designed to help researchers connect their thou
 - **[Microsoft OneNote](https://www.onenote.com/hrd)**: While OneNote can technically do linked notes, it is not specifically built for it.
 {% endcapture %}
 
-{% include card.html header="<i class='fas fa-project-diagram'></i> Connected note taking apps" text=connectednotes %}
+{% include card.html header="<i class='fas fa-project-diagram'></i> Connected note taking apps" text=connectednotes img="Roam-Group-min.png" %}
 
 {% capture bestconnected %}
 **Our recommendation: Notion**
