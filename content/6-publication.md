@@ -1,8 +1,36 @@
 ---
 title: Reference & Resources
-nav: Resources
+nav: Publication
 ---
 
+# Phase 5: Publication
+
+{% include figure.html img="ch-publication.png" alt="A boy speaks on the phone" caption="Hello? I'd like to tell you a story" width="75%" %}
+
+{% capture text %}Managing your profile and professional relationships is as important as your actual research.{% endcapture %}
+{% include alert.md text=text color="warning" %}
+
+{% capture profiletools %}
+### 📣 Online profile tools
+
+ - [Griffith Experts](https://experts.griffith.edu.au)
+ - [ORCID](https://orcid.org)
+ - [Mendeley](https://www.mendeley.com)
+ - [LinkedIn](https://au.linkedin.com)
+ - [Twitter](https://twitter.com)
+
+{% endcapture %} 
+
+{% include card.html header="<i class='fas fa-eye'></i> Data visualisation tools" text=dataviz %}
+
+ ---
+
+{% capture text %}**That's it!** For now, that's all we've got to show you. We'lre going to be developing this content further over time (the digital tools landscape never sits still). In the meantime, feel free to [ask a question](https://griffithu.padlet.org/y_banens1/60je7s1g90b3f69h){:target="_blank"}. 
+{% endcapture %}
+{% include alert.md text=text color="success" %}
+
+
+{% comment %}
 To learn about using `workshop-template-b`, the [Readme](https://github.com/evanwill/workshop-template-b/blob/master/README.md) and content pages have some documentation.
 
 Workshop sites using this template:
@@ -68,3 +96,6 @@ Liquid statements are enclosed by {% raw %}`{%  %}`{% endraw %} and variables in
 All normal CSS is valid SCSS, but Sass adds many powerful functions and programmatic features. 
 Writing SCSS is often easier and more sensible, for example by supporting nesting, variables, and operators. 
 Jekyll lets you write SASS in modular chucks called partials, in the `_sass` directory, that will be combined and compiled into normal CSS files when the site is built.
+
+
+{% endcomment %}
