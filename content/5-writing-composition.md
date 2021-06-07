@@ -1,7 +1,4 @@
-{% include figure.html img="ch-writing.png" alt="A boy and his tiger write together" caption="Writing is hard" width="75%" %}
-
-
-### <i class="fas fa-paragraph"></i> Composition
+</i> Composition
 
 {% capture compostition %}
 - **[LaTeX](https://www.overleaf.com)**: `LaTeX` is a text formatting language (like `Markdown`) which is very flexible and robust. It is format agnostic your document structure, headings and figures can use any style you like. Overleaf is a web-based LaTeX editor with many built-in templates and automatic preview. It can automatically format your paper for certain journals and even submit them for you.

@@ -1,7 +1,5 @@
 ## Coding <span class="fas fa-rocket"></span> 
 
-# Work with plain text
-
 {% capture text %}
 Plain text editors are much more important than you might think. Get yourself a good one.
 {% endcapture %}
@@ -9,14 +7,20 @@ Plain text editors are much more important than you might think. Get yourself a 
 {% include alert.html text=text color=info %}
 
 {% capture editors %}
-These text editors are all oriented towards programmign and editing code. They have features that are helpful when working in code, like syntax coloring and code folding. Even if you don't consider yourself a programmer, you'll find a good text editor invaluable.
+These text editors are all oriented towards programming and editing code. They have features that are helpful when working in code, like syntax coloring and code folding. Even if you don't consider yourself a programmer, you'll find a good text editor invaluable.
 
 - **[Sublime Text](https://www.sublimetext.com)**: one of the most popular programming text editors for Windows
+
 - **[Notepad++](https://notepad-plus-plus.org/)**: a popular free option
+
 - **[BBEdit (Mac)](https://www.barebones.com/products/bbedit/)**: a venerable (30y+) program with many fans.
+
 - **[Atom](https://atom.io)**: Free, extensible with lots of plugins
-- **[Brackets](http://brackets.io)**: Adobe's free text editor. 
+
+- **[Brackets](http://brackets.io)**: Adobe's free text editor.
+
 - **[Visual Studio Code](code.visualstudio.com)**: Microsoft's programming-oriented text editor. Free and highly extensible. 
+
 {% endcapture %}
 {% include card.html header="<i class='fas fa-superscript'></i> Programming text editors" text=editors %}
 
@@ -67,11 +71,3 @@ All of the programming text editors above support Markdown. Below are some dedic
 - [Hacky Hour](https://hackyhourgriffith.wordpress.com)
 {% endcapture %}
 {% include alert.html text=programminghelp color="info" %}
-
----
-
-{% capture text %}
-    **All done here?** Head to the [next page](4-writing.html) or [ask a question](https://griffithu.padlet.org/y_banens1/60je7s1g90b3f69h){:target="_blank"}. 
-    {% endcapture %}
-
-{% include alert.html text=text color="success" %}
