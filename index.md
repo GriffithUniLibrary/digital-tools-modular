@@ -7,7 +7,7 @@ layout: default
 
 {% include figure.html img="c-and-h.jpeg" alt="A boy and his tiger on an adventure" caption="How it feels to embark on a research journey" width="75%" %}
 
-Welcome to Digital Tools for Research, a Griffith [RED](https://www.griffith.edu.au/research/research-services/researcher-education-development) workshop.
+{% include alert.html text="Welcome to Digital Tools for Research, a Griffith [RED](https://www.griffith.edu.au/research/research-services/researcher-education-development) workshop." align="center" color="primary" %}
 
 ## About this workshop
 
