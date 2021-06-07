@@ -3,7 +3,7 @@ title: Workshop preparation
 nav: false
 ---
 
-{% include alert.html text="There are a few pieces of software to install before you start this workshop, so you can take part in the activities." align="center" color="primary" %}
+{% include alert.html text="There are a few pieces of software to install before you start this workshop, so you can take part in the activities." color="primary" %}
 
 {% capture installteams %}
 Microsoft Teams is a collaboration tool that provides chat, videoconference and file sharing. This workshop will be conducted using Teams. It is possible to run Teams inside a web browser but you will find it much more convenient to download the desktop application.
