@@ -1,5 +1,3 @@
-___
-
 ## Security
 
 {% capture passphrase %}
@@ -21,14 +19,15 @@ Getting used to using a password manager is a great investment in your overall e
 
  - **[Dashlane](https://www.dashlane.com)**
 
- {% capture browser %}
-You could, but you would be missing out on a few of the key benefits of password managers, like checking that your passwords aren't being reused across services, generating new passwords for you and syncing your passwords across mobile and desktop devices.
-{% include figure.html img="ch-preparation.png" alt="A boy and his tiger look out to the distance" caption="Preparing to embark" width="75%" %}
-{% endcapture %}
-{% include modal.html button="Why can't I just let my browser remember my passwords?" color="info" title="Why not save in a browser" text=browser %}
+
 
 {% endcapture %}
 {% include card.html header="<i class='fas fa-key'> Password managers" text=pwmanagers %}
+
+{% capture browser %}
+You could, but you would be missing out on a few of the key benefits of password managers, like checking that your passwords aren't being reused across services, generating new passwords for you and syncing your passwords across mobile and desktop devices.
+{% endcapture %}
+{% include modal.html button="Why can't I just let my browser remember my passwords?" color="info" title="Why not save in a browser" text=browser %}
 
 {% capture pwrecommended %}
 **Our recommendation: Bitwarden**
