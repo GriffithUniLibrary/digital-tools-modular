@@ -15,8 +15,6 @@ ___
 
 ___
 
-{% include alert.html text="Everything's written. Let's publish." color="success" %}
-
 {% capture text %}
 **All done here?** Head to the [next page](6-publication.html). 
 {% endcapture %}
