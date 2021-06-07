@@ -1,9 +1,7 @@
 ## Where will your precious data live?
 
 {% capture ftf %}
-**First things first:** 
-    
-Find a place to put your research data. Don't lose it. Keep it secure.
+**First things first:** Find a place to put your research data. Don't lose it. Keep it secure.
 {% endcapture %}
 {% include alert.html text=ftf color="warning" %}
 
@@ -15,8 +13,8 @@ Your data storage location is critical. It needs to be three things: reliable, s
 
 It's much better for reliability to entrust your data storage to a cloud provider. Cloud providers host data on servers with 'failover redundancy', meaning if one server ever fails, another is ready to take its place instantly. This is how they can advertise '99.999% uptime'. 
 
-{% capture options %}
-- [Cloudstor](https://cloudstor.aarnet.edu.au): powered by AARNet (The Australian Academic Research Network) and provides students and researchers with a Terabyte of free, ultra-fast storage. It's easy to set up and works just like Dropbox.
+{% capture syncoptions %}
+- **[Cloudstor](https://cloudstor.aarnet.edu.au)**: powered by AARNet (The Australian Academic Research Network) and provides students and researchers with a Terabyte of free, ultra-fast storage. It's easy to set up and works just like Dropbox.
 
 - **[Google Drive](https://www.google.com/drive/)**: Everyone knows this one. 
 
@@ -25,7 +23,7 @@ It's much better for reliability to entrust your data storage to a cloud provide
 - **[Dropbox](https://www.dropbox.com/)**
 {% endcapture %}
 
-{% include card.html header="<i class='fas fa-sync'></i> Online storage & sync options" text=options %}
+{% include card.html header="<i class='fas fa-sync'></i> Online storage & sync options" text=syncoptions img= %}
 
 {% capture note %}
 **Note:** When signing in to OneDrive, be sure to use your Griffith credentials rather than a personal Microsoft account.
