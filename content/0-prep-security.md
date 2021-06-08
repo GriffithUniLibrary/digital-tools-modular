@@ -2,13 +2,9 @@
 
 {% capture passphrase %}
 The best way to keep your passwords *different and secure* is to use a password manager. ⭐️ The best *password* to use is a *passphrase*.
-{% endcapture %}
-{% include alert.html text=passphrase color="info" %}
-
-{% capture horse %}
 {% include figure.html img="password_strength.png" alt="Comic explaining why passphrases are superior to complex passwords" caption="CC-BY-NC 2.5 License. Comic by [XKCD](https://xkcd.com/936/)" width="100" %}
 {% endcapture %}
-{% include modal.html button="This classic comic explains it best" color="info" title="Password strength" text=horse %}
+{% include alert.html text=passphrase color="info" %}
 
 {% include button.html text="This comic explains it best" link="https://xkcd.com/936/" color="info" %}
 
