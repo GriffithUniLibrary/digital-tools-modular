@@ -4,9 +4,11 @@ nav: false
 description: `OpenRefine` is a free tool for cleaning messy data. 
 ---
 
+## Cleaning your data with OpenRefine
+
 This activity will be a live demo. You can follow along on your own computer if you have the software installed. 
 
-You can also review the videos below which are part of the Library's OpenRefine Workshop material.
+You can also review the videos below which are part of the Library's [OpenRefine Workshop](https://griffithunilibrary.github.io/intro-data-wrangle/) material.
 
 <iframe src="https://player.vimeo.com/video/412189056" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
