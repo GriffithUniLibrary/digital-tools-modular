@@ -6,8 +6,6 @@ The best way to keep your passwords *different and secure* is to use a password 
 {% endcapture %}
 {% include alert.html text=passphrase color="info" %}
 
-{% include button.html text="This comic explains it best" link="https://xkcd.com/936/" color="info" %}
-
 {% capture pwmanagers %}
 
 Getting used to using a password manager is a great investment in your overall experience of using the Internet. Most password managers have browser plugins that can fill login forms automatically. 
