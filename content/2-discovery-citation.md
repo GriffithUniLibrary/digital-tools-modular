@@ -1,5 +1,5 @@
 {% capture citationtools %}
-You can use verious visual tools to visualise connections between the papers in your field or research project. 
+You can use various visual tools to visualise connections between the papers in your field or research project. 
 
 - **[Connected Papers](https://www.connectedpapers.com)**: A visual tool to help researchers and applied scientists find and explore papers relevant to their field of work. Papers are arranged according to their similarity. Even papers that do not directly cite each other can be strongly connected and very closely positioned. Connected Papers is not a citation tree.
 
