@@ -12,17 +12,17 @@ The following apps all scan photos, documents and whiteboards, automatically str
 
 - **Microsoft Lens** ([Android](https://play.google.com/store/apps/details?id=com.microsoft.office.officelens&hl=en_AU&gl=US) and [iOS](https://apps.apple.com/au/app/microsoft-office-lens-pdf-scan/id975925059)): Microsoft's scanner tool. Also scans documents and saves as images or PDF. Can annotate scans with text. Requires Microsoft 365 subscription to save to OneDrive. 
 
-**SwiftScan** ([Android](https://play.google.com/store/apps/details?id=net.doo.snap&hl=en_AU&gl=US) and [iOS](https://apps.apple.com/us/app/swiftscan-document-scanner/id834854351)): Connects with several cloud services. Requires monthly subscription. 
+- **SwiftScan** ([Android](https://play.google.com/store/apps/details?id=net.doo.snap&hl=en_AU&gl=US) and [iOS](https://apps.apple.com/us/app/swiftscan-document-scanner/id834854351)): Connects with several cloud services. Requires monthly subscription. 
 
-**Apple Notes**: The Notes app on iPhone scans multi-page documents as PDFs. An excellent free option if you have an iPhone.
+- **Apple Notes**: The Notes app on iPhone scans multi-page documents as PDFs. An excellent free option if you have an iPhone.
 
 {% endcapture %}
 {% include card.html header="<i class='fas fa-file-pdf'></i> PDF and document scanners" text=scanners %}
 
 {% capture bestscanner %}
-**Our recommendation: Office Lens**
+**Our recommendation: Microsoft Lens**
 
-Adobe Scan is more polished and has more features, but you are more likely to have a Microsoft 365 subscription, so go for the one that won't cost you more money. 
+Adobe Scan is more polished and has more features, but you are more likely to have a Microsoft 365 subscription, so go for the one that won't cost you money. If you happen to have a Creative Cloud subscription, then go for the Adobe option.
 
 {% endcapture %}
 

@@ -28,17 +28,16 @@ This is a simple comparison of the key features of LimeSurvey and REDCap. If you
 
 {% include modal.html button="Help me to choose one" color="primary" title="Which survey tool should I use?" text=whysurveys %}
 
- ## Alternative options
+### Alternative options
 
- These options are popular, but don't come with any support from the University. 
+These options are popular, but don't come with any support from the University. 
+- **[Google Forms](https://docs.google.com/forms/)**
 
- - **[Google Forms](https://docs.google.com/forms/)**
+- **[Microsoft Forms](http://forms.office.com)**
 
- - **[Microsoft Forms](http://forms.office.com)**
- 
- - **[Survey Monkey](https://www.surveymonkey.com)**
- 
- - **[Qualtrics](https://www.qualtrics.com)** is popular in psychology. Griffith no longer holds a license so it will not be free for you to use.
+- **[Survey Monkey](https://www.surveymonkey.com)**
+
+- **[Qualtrics](https://www.qualtrics.com)** is popular in psychology. Griffith no longer holds a license so it will not be free for you to use.
 
 {% endcapture %}
 {% include card.html header="<i class='fas fa-poll'></i> Survey Tools" text=surveys title="Griffith supported survey tools" %}
