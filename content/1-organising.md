@@ -77,4 +77,4 @@ Free and open-source, fully-featured, highly integrated. What's not to like?
 
 {% include alert.html text=bestmind color="primary" %}
 
-{% include alert.html text="Now that you're completely organised, it's time to look at some tools for capturing data." color="success" %}
+{% include alert.html text="Now that you're completely organised, it's time to look at some tools for [capturing data](2-discovery.md)." color="success" %}
