@@ -30,7 +30,7 @@ Tableau can produce beautiful results quickly and is free to academic researcher
 {% include alert.html text=bestdataviz color="primary" %}
 
 {% comment %}
-This section includes chart.js and adds a simple chart
+This section includes chart.js and adds a simple chart - gosh this is exciting
 {% endcomment %}
 {% include_relative chart.md %}
 
