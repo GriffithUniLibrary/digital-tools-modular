@@ -49,3 +49,8 @@ This section includes chart.js and adds a simple chart - gosh this is exciting
 Activity: Want to try out some data visualisation? Of course you do!
 
 {% include button.html text="Go to the Tableau activity" link="activity-tableau.html" color="info" %}
+
+Synology
+: A brand of network-attached storage
+
+
