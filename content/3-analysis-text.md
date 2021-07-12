@@ -1,6 +1,8 @@
+### Text analysis
+
 {% capture textanalysis %}
 
-Text and data mining has become a significant part of the `Digital Humanities`. 
+Text and data mining has become a significant part of the `Digital Humanities`.
 
 - **[NVIVO](https://www.griffith.edu.au/student-computing/available-software)**: version 12 integrates with Endnote and other tools
 

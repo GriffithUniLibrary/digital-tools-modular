@@ -1,4 +1,4 @@
-## Data visualisation
+### Data visualisation
 
 {% capture text %}
 No matter what tool you use, you'll need a little bit of training to make good data visualisations. RED offers workshops on [data visualisation and data storytelling](https://app.secure.griffith.edu.au/events/category/developing-researcher-training-program). The Library has also produced an [online introduction](https://sway.office.com/O9vEKmTmBXPxGOnE) you might find useful.
@@ -31,7 +31,7 @@ Tableau can produce beautiful results quickly and is free to academic researcher
 
 {% comment %}
 This section includes chart.js and adds a simple chart - gosh this is exciting
-{% endcomment %}
+
 {% include_relative chart.md %}
 
 <div>
@@ -45,6 +45,8 @@ This section includes chart.js and adds a simple chart - gosh this is exciting
   );
 </script>
 </div>
+
+{% endcomment %}
 
 Activity: Want to try out some data visualisation? Of course you do!
 
