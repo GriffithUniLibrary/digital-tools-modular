@@ -27,3 +27,4 @@ Adobe Scan is more polished and has more features, but you are more likely to ha
 {% endcapture %}
 
 {% include alert.html text=bestscanner color="primary" %}
+
