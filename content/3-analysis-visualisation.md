@@ -24,29 +24,10 @@ No matter what tool you use, you'll need a little bit of training to make good d
 {% capture bestdataviz %}
 **Our recommendation: Tableau**
 
-Tableau can produce beautiful results quickly and is free to academic researchers. It's not supported by the University, but neither are any of the others. 
+Tableau can produce beautiful results quickly and is free to academic researchers. It's not supported by the University, but neither are any of the others.
 {% endcapture %}
 
 {% include alert.html text=bestdataviz color="primary" %}
-
-{% comment %}
-This section includes chart.js and adds a simple chart - gosh this is exciting
-
-{% include_relative chart.md %}
-
-<div>
-<script>
-  // === include 'setup' then 'config' above ===
-{% include_relative demo-chart.html %}
-
-  var myChart = new Chart(
-    document.getElementById('myChart'),
-    config
-  );
-</script>
-</div>
-
-{% endcomment %}
 
 Activity: Want to try out some data visualisation? Of course you do!
 
@@ -54,5 +35,3 @@ Activity: Want to try out some data visualisation? Of course you do!
 
 Synology
 : A brand of network-attached storage
-
-
