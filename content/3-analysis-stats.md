@@ -29,4 +29,4 @@ The boundaries between qualitative and quantitative tools are becoming blurred. 
 There are potentially other types of applicaiton that are not yet identified. 
 {% endcapture %}
 
-{% include otherstats %}
+{% include alert.html text=otherstats color="info" %}
