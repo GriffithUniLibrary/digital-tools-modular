@@ -21,4 +21,4 @@ ___
 
 ___
 
-{% include alert.html text="**Fully analysed**, it's time to move to the [writing phase](5-writing.md). " color="success" %}
+{% include alert.html text="**Fully analysed**, it's time to move to the [writing phase](5-writing.html). " color="success" %}
