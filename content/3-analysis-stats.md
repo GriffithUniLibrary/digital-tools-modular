@@ -26,8 +26,8 @@ The boundaries between qualitative and quantitative tools are becoming blurred. 
 
 {% include card.html header="<i class='fas fa-sort-amount-down'></i> Quantitative analysis" text=quant %}
 
-{%- capture otherstats -%}
+{% capture otherstats %}
 There are potentially other types of applicaiton that are not yet identified. 
 {%- endcapture -%}
 
-{%- include otherstats -%}
+{% include otherstats %}
