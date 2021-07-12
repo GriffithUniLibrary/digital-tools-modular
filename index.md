@@ -8,10 +8,12 @@ layout: default
 {% include figure.html img="c-and-h.jpeg" alt="A boy and his tiger on an adventure" caption="How it feels to embark on a research journey" width="75%" %}
 
 {% capture workshopinfo %}
-Hi! This site is designed as a companion to Digital Tools for Research, a Griffith [RED](https://www.griffith.edu.au/research/research-services/researcher-education-development) workshop. It can also be treated as a standalone resource.
+Hi! This site is designed as a companion to [Griffith Library's](https://www.griffith.edu.au/library) Digital Tools for Research workshop, presented in collaboration with Griffith [RED](https://www.griffith.edu.au/research/research-services/researcher-education-development).
+
+It can also be treated as a standalone, self-paced tutorial.
 {% endcapture %}
 
-{% include alert.html text=workshopinfo align="center" color="info" %}
+{% include alert.html text=workshopinfo align="left" color="info" %}
 
 ## About this workshop
 
