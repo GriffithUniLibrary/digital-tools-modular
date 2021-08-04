@@ -68,7 +68,7 @@ var myChart = new Chart(ctx, {
 </script>
 {% endcapture %}
 
-{% include card.html header="<i class='fas fa-eye'></i> Sample Chart.js output" text=dataviz %}
+{% include card.html header="<i class='fas fa-eye'></i> Sample Chart.js output" text=chartjs %}
 
 {% capture bestdataviz %}
 **Our recommendation: Tableau**
