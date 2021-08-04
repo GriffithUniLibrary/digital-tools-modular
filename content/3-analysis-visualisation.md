@@ -28,7 +28,7 @@ No matter what tool you use, you'll need a little bit of training to make good d
 
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> 
 
-<canvas id="myChart" width="400" height="400"></canvas>
+<canvas id="myChart" width="400" height=100%></canvas>
 <script>
 var ctx = document.getElementById('myChart');
 var myChart = new Chart(ctx, {
@@ -73,7 +73,7 @@ var myChart = new Chart(ctx, {
 {% capture bestdataviz %}
 **Our recommendation: Tableau**
 
-Tableau can produce beautiful results quickly and is free to academic researchers. It's not supported by the University, but neither are any of the others.
+Tableau can produce beautiful results quickly and is free to academic researchers. It's not supported by the University — but neither are any of the others.
 {% endcapture %}
 
 {% include alert.html text=bestdataviz color="primary" %}
