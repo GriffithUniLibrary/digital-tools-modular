@@ -28,7 +28,7 @@ No matter what tool you use, you'll need a little bit of training to make good d
 
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> 
 
-<canvas id="myChart" width="400"></canvas>
+<canvas id="myChart" width="400" height="400"></canvas>
 <script>
 var ctx = document.getElementById('myChart');
 var myChart = new Chart(ctx, {
@@ -68,7 +68,7 @@ var myChart = new Chart(ctx, {
 </script>
 {% endcapture %}
 
-{% include card.html header="<i class='fas fa-eye'></i> Sample Chart.js output" text=chartjs %}
+{% include card.html header="<i class='fas fa-chart-bar'></i> Sample Chart.js output" text=chartjs %}
 
 {% capture bestdataviz %}
 **Our recommendation: Tableau**
