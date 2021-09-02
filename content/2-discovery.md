@@ -1,7 +1,7 @@
 ---
 title: The discovery process
 nav: Discovery
-topics: Document scanning, Reference management; Citation trees
+topics: Citation trees; automated alerts; PDF scanning; Survey tools; Reference management; 
 description: When you strike out and start reading or capturing data, how will you make sure that everything you're doing is captured? How will you make sure that you've found all the papers you should be looking for? 
 ---
 
