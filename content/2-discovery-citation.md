@@ -1,5 +1,5 @@
 {% capture citationtools %}
-You can make the process of finding relevant papers less arduous by using tools to recommend similar or related papers to you/ Some of them also help to visualise connections between the papers in your field or research project. 
+You can use tools to recommend similar or related papers to those you have. Some of them also help to visualise connections between the papers in your field or research project. 
 
 - **[Google Scholar](https://scholar.google.com/scholar_alerts?view_op=list_alerts&hl=en)**: Create alerts in Google Scholar so you can be emailed when papers mathching specific keywords are published. A broad approach that might result in some irrelevant papers, but highly automated and convenient. 
 
@@ -13,3 +13,12 @@ You can make the process of finding relevant papers less arduous by using tools 
 
 {% endcapture %}
 {% include card.html header="<i class='fas fa-tree'></i> Automating your paper discovery" text=citationtools img="connected-papers-cropped.png" %}
+
+{% capture bestcitengine %}
+**Our recommendation: All of them!**
+
+No one of these tools does everything the others do. Why not set them all up so you have the best chance of locating the latest and most relevant papers in your field? Just make sure to define your Google Scholar alert keywords narrowly so you don't get swamped!
+
+{% endcapture %}
+
+{% include alert.html text=bestcitengine color="primary" %}
