@@ -7,10 +7,12 @@ nav: Publication
 
 {% include figure.html img="ch-publication.png" alt="A boy speaks on the phone" caption="Hello? I'd like to tell you a story" width="75" %}
 
-{% capture text %}
+{% capture relationships %}
 Managing your profile and professional relationships is as important as your actual research.
 {% endcapture %}
-{% include alert.html text=text color="warning" %}
+{% include alert.html text=relationships color="info" %}
+
+{% include_relative 6-publication-images.md %}
 
 {% capture profiletools %}
 
@@ -31,7 +33,7 @@ Managing your profile and professional relationships is as important as your act
  ---
 
 {% capture text %}
-**That's it!** For now, that's all we've got to show you. We'lre going to be developing this content further over time (the digital tools landscape never sits still). In the meantime, feel free to [ask a question](https://griffithu.padlet.org/y_banens1/60je7s1g90b3f69h){:target="_blank"}. 
+**That's it!** For now, that's all we've got to show you. The digital tools landscape never sits still though. We'll update this content this content periodically. 
 {% endcapture %}
 {% include alert.html text=text color="success" %}
 
