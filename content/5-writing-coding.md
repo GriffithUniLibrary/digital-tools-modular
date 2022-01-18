@@ -10,10 +10,15 @@ Plain text editors are much more important than you might think. Get yourself a 
 These text editors are all oriented towards programming and editing code. They have features that are helpful when working in code, like syntax coloring and code folding. Even if you don't consider yourself a programmer, you'll find a good text editor invaluable.
 
 - **[Sublime Text](https://www.sublimetext.com)**: one of the most popular programming text editors for Windows
+
 - **[Notepad++](https://notepad-plus-plus.org/)**: a popular free option
+
 - **[BBEdit (Mac)](https://www.barebones.com/products/bbedit/)**: a venerable (30y+) program with many fans.
+
 - **[Atom](https://atom.io)**: Free, extensible with lots of plugins
+
 - **[Brackets](http://brackets.io)**: Adobe's free text editor.
+
 - **[Visual Studio Code](code.visualstudio.com)**: Microsoft's programming-oriented text editor. Free and highly extensible.
 
 {% endcapture %}
@@ -37,9 +42,13 @@ Microsoft's editor is free, highly extensible (meaning it has lots of plugins to
 All of the programming text editors above support Markdown. Below are some dedicated Markdown editors. 
 
 - **[Dillinger](https://dillinger.io)**:  popular and free online Markdown editor.
+
 - **[Stackedit](https://stackedit.io)**: popular and free online Markdown editor.
+
 - **[Ulysses](https://ulysses.app)**: a general-purpose writing app with good Markdown support.
+
 - **[Marked 2 (Mac)](https://marked2app.com)**
+
 {% endcapture %}
 {% include card.html header="<i class='fab fa-markdown'></i> Markdown editors" text=markdowntools %}
 
@@ -51,11 +60,17 @@ All of the programming text editors above support Markdown. Below are some dedic
 
 {% capture environments %}
 - **[R](https://www.r-project.org)**:  extensible, support through Hacky Hour and Carpentries
+
 - **[Python](https://www.python.org)**: support through Hacky Hour and Carpentries
+
 - **[GitLab](https://gitlab.rcs.griffith.edu.au)**: Griffith University shared code repository
+
 - **[Visual Studio](https://visualstudio.microsoft.com)**: mulitiplatform IDE published by Microsoft
+
 - **[GitHub](https://github.com)**: a popular code repository site. This site is hosted on GitHub.
+
 - **[Anaconda](https://www.anaconda.com/distribution/)**: Python development environment
+
 {% endcapture %}
 
 {% include card.html header="<i class='fas fa-bug'></i> Development languages and environments" text=environments %}
