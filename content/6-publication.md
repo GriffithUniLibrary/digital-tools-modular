@@ -1,35 +1,26 @@
 ---
 title: Reference & Resources
 nav: Publication
+topics: Images, Networking
+description: Youre ready to publish. Polish up that paper and upload it, then let the world know. 
 ---
 
 # Phase 5: Publication
 
 {% include figure.html img="ch-publication.png" alt="A boy speaks on the phone" caption="Hello? I'd like to tell you a story" width="75" %}
 
-{% capture relationships %}
-Managing your profile and professional relationships is as important as your actual research.
-{% endcapture %}
-{% include alert.html text=relationships color="info" %}
-
 {% include_relative 6-publication-images.md %}
 
-{% capture profiletools %}
+----
 
- - **[Griffith Experts](https://experts.griffith.edu.au)**: All Griffith teaching staff have a profile on Griffith Experts. 
- - **[ORCID](https://orcid.org)**: Your ORCiD ensures all of your published research is associated with you, regardless of institution or project. 
- - **[Mendeley](https://www.mendeley.com)**: The reference manager also has sharing and social features. 
- - **[LinkedIn](https://au.linkedin.com)**: Promoted as a networking tool for professionals.
- - **[Twitter](https://twitter.com)**: using hashtags to livetweet conferences is a favourite of researchers. 
+{% include_relative 6-publication-network.md %}
 
-{% endcapture %} 
-
-{% include card.html header="<i class='fas fa-bullhorn'></i> Online profile tools" text=profiletools %}
-
- ---
+----
 
 {% capture text %}
-**That's it!** For now, that's all we've got to show you. The digital tools landscape never sits still though. We'll update this content this content periodically. 
+
+**That's it!** For now, that's all we've got to show you. The digital tools landscape never sits still though. We'll update this content this content periodically.
+
 {% endcapture %}
 {% include alert.html text=text color="success" %}
 
