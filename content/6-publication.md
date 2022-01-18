@@ -1,5 +1,5 @@
 ---
-title: Reference & Resources
+title: Publication and Outreach
 nav: Publication
 topics: Images, Networking
 description: Youre ready to publish. Polish up that paper and upload it, then let the world know. 
