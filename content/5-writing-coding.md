@@ -1,4 +1,4 @@
-## Coding <span class="fas fa-rocket"></span> 
+## Coding
 
 {% capture text %}
 Plain text editors are much more important than you might think. Get yourself a good one.

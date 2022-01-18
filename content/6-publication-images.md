@@ -1,3 +1,5 @@
+## Image tools
+
 {% capture images %}
 
 Journals usually have specific requirements for the size, resolution, format and colour of the figures or images in your paper. Once youve determined what the requirements are, you may need to use a graphics tool to change the format of your image files.

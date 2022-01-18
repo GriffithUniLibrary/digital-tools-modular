@@ -1,11 +1,13 @@
+## Networking tools
+
+{% capture profiletools %}
+
 {% capture relationships %}
 
 Managing your profile and professional relationships is as important as your actual research.
 
 {% endcapture %}
 {% include alert.html text=relationships color="info" %}
-
-{% capture profiletools %}
 
  - **[Griffith Experts](https://experts.griffith.edu.au)**: All Griffith teaching staff have a profile on Griffith Experts.
  - **[ORCID](https://orcid.org)**: Your ORCiD ensures all of your published research is associated with you, regardless of institution or project.
