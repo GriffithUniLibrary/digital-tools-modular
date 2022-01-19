@@ -15,7 +15,7 @@ Journals usually have specific requirements for the size, resolution, format and
 - **[XNView](https://www.xnview.com/en/)**: A free, multiplatform image processor specifically aimed at resizing and format conversion.
 
 {% endcapture %}
-{% include card.html header="<i class='fas fa-image'></i> Preparing your images for publication" text=images img="journal-image.png" %}
+{% include card.html header="<i class='fas fa-image'></i> Preparing your images for publication" text=images img="journal-figure.png" %}
 
 {% capture bestimage %}
 **Our recommendation: XNView**
