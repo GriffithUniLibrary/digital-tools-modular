@@ -7,8 +7,6 @@ description: Youre ready to publish. Polish up that paper and upload it, then le
 
 # Phase 5: Publication
 
-{% include figure.html img="ch-publication.png" alt="A boy speaks on the phone" caption="Hello? I'd like to tell you a story" width="75" %}
-
 {% include_relative 6-publication-images.md %}
 
 ----
