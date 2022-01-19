@@ -5,8 +5,6 @@ topics: Images, Networking
 description: Youre ready to publish. Polish up that paper and upload it, then let the world know. 
 ---
 
-# Phase 5: Publication
-
 {% include_relative 6-publication-images.md %}
 
 ----
