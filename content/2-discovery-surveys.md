@@ -13,7 +13,7 @@ You can also [Get advice from a qualified statistician](https://www.griffith.edu
 
 {% endcapture %}
 
-{% include alert.html text=gurmawarning color="error" %}
+{% include alert.html text=gurmawarning color="danger" %}
 
 The following two survey tools are provided and supported by Griffith. We recommend that you use one of these for your research. 
 
@@ -24,7 +24,8 @@ The following two survey tools are provided and supported by Griffith. We recomm
  > [Workshops](https://www.griffith.edu.au/research/research-services/researcher-education-development/workshop-calendar) and [video resources](https://www.youtube.com/playlist?list=PLOtTT7TqB2izC3THIFCokfIh5DwlOPePH) are available.
 
 {% capture whysurveys %}
-REDCap and LimeSurvey are hosted on Griffith servers and managed by the eResearch team. This means: 
+REDCap and LimeSurvey are hosted on Griffith servers and managed by the eResearch team. This means:
+
 - Your research data is securely backed up and archived according to Griffith's data retention policy,
 - Australian data laws apply,
 - [Workshops](https://www.griffith.edu.au/research/research-services/researcher-education-development/workshop-calendar) are available for both tools,
