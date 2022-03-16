@@ -4,7 +4,12 @@
 
 **Get survey design advice first**
 
-"[Get advice from a qualified statistician](https://www.griffith.edu.au/research/research-services/researcher-education-development/statistical-advice) before you design and deploy your survey. They will help you understand the impact your survey and question design will have on the final data output."
+Creating an online research survey should come long after you've carefully designed and validated your survey. Griffith offers several workshops to help make sure your survey will get you the answers you want: 
+
+- [Validating your survey questions](https://app.secure.griffith.edu.au/events/search?sdata=validating)
+- [Developing a structural equation model](https://app.secure.griffith.edu.au/events/search?sdata=structural+equation+modelling&event-type=&date_and_time=)
+
+You can also [Get advice from a qualified statistician](https://www.griffith.edu.au/research/research-services/researcher-education-development/statistical-advice).
 
 {% endcapture }
 {% include alert.html text=gurmawarning color="error" %}
@@ -27,13 +32,13 @@ REDCap and LimeSurvey are hosted on Griffith servers and managed by the eResearc
 {% endcapture %}
 {% include modal.html button="Why are these tools recommended?" color="info" title="Why use LimeSurvey and REDCap" text=whysurveys %}
 
-{% capture whysurveys %}
+{% capture whichsurvey %}
 This is a simple comparison of the key features of LimeSurvey and REDCap. If you're not sure which one you should use, the best thing to do is [discuss it with us](https://intranet.secure.griffith.edu.au/library/forms/help). 
 
 {% include figure.html img="survey-comparison.png" alt="Comparison chart" caption="Feature comparison between LimeSurvey and REDCap" width="100%" %}
 {% endcapture %}
 
-{% include modal.html button="Help me to choose one" color="primary" title="Which survey tool should I use?" text=whysurveys %}
+{% include modal.html button="Help me to choose one" color="primary" title="Which survey tool should I use?" text=whichsurvey %}
 
 ### Alternative options
 
