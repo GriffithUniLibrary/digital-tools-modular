@@ -17,6 +17,18 @@ No matter what tool you use, you'll need a little bit of training to make good d
 - **[Prism](https://www.graphpad.com/scientific-software/prism/)**
 
 - **[Chart.js](https://www.chartjs.org)**: Simple yet flexible JavaScript charting for designers & developers. 
+
+{% capture relatedworkshops %}
+
+**Related workshops**
+
+- [Data visualisation Basics](https://app.secure.griffith.edu.au/events/search?sdata=visualisation)
+- [Excellent Graphics in R](https://app.secure.griffith.edu.au/events/search?sdata=graphics)
+
+{% endcapture %}
+
+{% include alert.html text=relatedworkshops color="warning" %}
+
 {% endcapture %}
 
 {% include card.html header="<i class='fas fa-eye'></i> Data visualisation tools" text=dataviz %}
@@ -81,6 +93,3 @@ Tableau can produce beautiful results quickly and is free to academic researcher
 Activity: Want to try out some data visualisation? Of course you do!
 
 {% include button.html text="Go to the Tableau activity" link="activity-tableau.html" color="info" %}
-
-Synology
-: A brand of network-attached storage
