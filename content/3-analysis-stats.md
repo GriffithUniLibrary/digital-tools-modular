@@ -21,12 +21,20 @@ The boundaries between qualitative and quantitative tools are becoming blurred. 
 
  - **[STATA](https://www.stata.com/)**
  
+ **Related workshops**
+
+- [Statistical Training Program](https://app.secure.griffith.edu.au/events/category/statistical-training-program)
+
+{% endcapture %}
+
+{% include alert.html text=relatedworkshops color="warning" %}
+
  {% endcapture %}
 
 {% include card.html header="<i class='fas fa-sort-amount-down'></i> Quantitative analysis" text=quant %}
 
 {% capture otherstats %}
-There are potentially other types of applicaiton that are not yet identified. 
+There are potentially other types of application that are not yet identified. 
 {% endcapture %}
 
 {% include alert.html text=otherstats color="info" %}

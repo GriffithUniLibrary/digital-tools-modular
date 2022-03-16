@@ -16,7 +16,16 @@ Text and data mining has become a significant part of the `Digital Humanities`.
 
 - **[JSTOR Labs](http://labs.jstor.org.libraryproxy.griffith.edu.au/)**: A variety of text analysis tools provided by JSTOR. Griffith maintains a subscription. 
 
-- **[Gale Digital Scholar Lab](http://libraryproxy.griffith.edu.au/login?url=https://infotrac.gale.com/itweb/griffith?db=DSLAB)**: A collection of tools to build, clean and analyse text-based datasets. Griffith maintains a subscription. 
+- **[Gale Digital Scholar Lab](http://libraryproxy.griffith.edu.au/login?url=https://infotrac.gale.com/itweb/griffith?db=DSLAB)**: A collection of tools to build, clean and analyse text-based datasets. Griffith maintains a subscription.
+
+ **Related workshops**
+
+- [Leximancer workshops](https://app.secure.griffith.edu.au/events/search?sdata=leximancer)
+- [Digital Texts and Tools for HASS Research](https://app.secure.griffith.edu.au/events/search?sdata=HASS)
+
+{% endcapture %}
+
+{% include alert.html text=relatedworkshops color="warning" %}
 
 {% include alert.html color="info" text="Check out [RED's latest workshops](https://www.griffith.edu.au/research/research-services/researcher-education-development/workshop-calendar) on Digital Humanities, text and data mining" %}
 
