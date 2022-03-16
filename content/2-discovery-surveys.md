@@ -1,6 +1,13 @@
 {% capture surveys %}
 
-{% include alert.html text="[Get advice from a qualified statistician](https://www.griffith.edu.au/research/research-services/researcher-education-development/statistical-advice) before you design and deploy your survey. They will help you understand the impact your survey and question design will have on the final data output." color="warning" %}
+{% capture gurmawarning %}
+
+**Get survey design advice first**
+
+"[Get advice from a qualified statistician](https://www.griffith.edu.au/research/research-services/researcher-education-development/statistical-advice) before you design and deploy your survey. They will help you understand the impact your survey and question design will have on the final data output."
+
+{% endcapture }
+{% include alert.html text=gurmawarning color="error" %}
 
 The following two survey tools are provided and supported by Griffith. We recommend that you use one of these for your research. 
 
