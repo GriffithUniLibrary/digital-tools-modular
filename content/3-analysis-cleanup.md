@@ -6,6 +6,16 @@
 [OpenRefine](https://openrefine.org/) is a free, open-source tool for cleaning messy data. Do you have a survey data set with responses like 'no', nah', 'not really', and 'n/a' that all mean the same thing? Or rows of data that need to be split or combined? OpenRefine is very good at tidying this sort of thing.
 {% endcapture %}
 
+{% capture relatedworkshops %}
+
+**Related workshops**
+
+- [Data wrangling with OpenRefine](https://app.secure.griffith.edu.au/events/search?sdata=wrangling)
+
+{% endcapture %}
+
+{% include alert.html text=relatedworkshops color="warning" %}
+
 {% include card.html header="<i class='fas fa-broom'></i> Data cleanup" text=text %} 
 
 Want to try it out? 

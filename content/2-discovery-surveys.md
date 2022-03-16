@@ -13,7 +13,7 @@ You can also [Get advice from a qualified statistician](https://www.griffith.edu
 
 {% endcapture %}
 
-{% include alert.html text=gurmawarning color="danger" %}
+{% include alert.html text=gurmawarning color="warning" %}
 
 The following two survey tools are provided and supported by Griffith. We recommend that you use one of these for your research. 
 
