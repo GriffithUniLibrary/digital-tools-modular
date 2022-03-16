@@ -21,7 +21,9 @@ The boundaries between qualitative and quantitative tools are becoming blurred. 
 
  - **[STATA](https://www.stata.com/)**
  
- **Related workshops**
+{% capture relatedworkshops %}
+
+**Related workshops**
 
 - [Statistical Training Program](https://app.secure.griffith.edu.au/events/category/statistical-training-program)
 
