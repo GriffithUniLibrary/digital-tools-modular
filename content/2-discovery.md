@@ -9,7 +9,7 @@ description: When you strike out and start reading or capturing data, how will y
 
 {% capture relatedworkshops %}
 
-**Related workshops**
+### Related workshops
 
 - [EndNote](https://app.secure.griffith.edu.au/events/search?sdata=endnote)
 - [Managing your research literature](https://app.secure.griffith.edu.au/events/search?sdata="Managing+your+research+literature")
