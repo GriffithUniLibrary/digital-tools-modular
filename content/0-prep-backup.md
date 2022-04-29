@@ -33,9 +33,9 @@ It's much better for reliability to entrust your data storage to a cloud provide
 [Cloudstor](https://cloudstor.aarnet.edu.au) is powered by AARNet (The Australian Academic Research Network) and provides students and researchers with a Terabyte of free, ultra-fast storage. It's easy to set up and works just like Dropbox.
 {% endcapture %}
 
-{% include video-embed.html youtubeid="mGaqxrrxfgA" caption="Signing in to Cloustor" %}
-
 {% include alert.html text=cloudstor color="primary" %}
+
+{% include video-embed.html youtubeid="mGaqxrrxfgA" caption="Signing in to Cloustor" %}
 
 {% endcapture %}
 
@@ -47,7 +47,7 @@ ___
 {% capture warning %}
 **Remember:** sync is not the same as backup!
 {% endcapture %}
-{% include alert.html text=warning color="warning" %}
+{% include alert.html text=warning color="danger" %}
 
 {% capture backupmodal %}
 Because when you're syncing, if you delete something from your computer, it's also deleted from the remote copy. That's the **opposite** of a backup!
