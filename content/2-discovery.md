@@ -27,7 +27,7 @@ description: When you strike out and start reading or capturing data, how will y
 
 {% capture relatedworkshops %}
 
-**Related workshops**
+### Related workshops
 
 - [Validating your survey questions](https://app.secure.griffith.edu.au/events/search?sdata=validating)
 - [Developing a structural equation model](https://app.secure.griffith.edu.au/events/search?sdata="structural+equation+modelling")
