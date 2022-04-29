@@ -13,7 +13,7 @@ You can also [Get advice from a qualified statistician](https://www.griffith.edu
 
 {% endcapture %}
 
-{% include alert.html text=gurmawarning color="warning" %}
+{% include alert.html text=gurmawarning color="error" %}
 
 The following two survey tools are provided and supported by Griffith. We recommend that you use one of these for your research. 
 
@@ -46,16 +46,13 @@ This is a simple comparison of the key features of LimeSurvey and REDCap. If you
 
 {% include modal.html button="Help me to choose one" color="primary" title="Which survey tool should I use?" text=whichsurvey %}
 
-### Alternative options
+**Alternative options**
 
 These options are popular, but don't come with any support from the University. 
-- **[Google Forms](https://docs.google.com/forms/)**
-
-- **[Microsoft Forms](http://forms.office.com)**
-
-- **[Survey Monkey](https://www.surveymonkey.com)**
-
-- **[Qualtrics](https://www.qualtrics.com)** is popular in psychology. Griffith no longer holds a license so it will not be free for you to use.
+- [Google Forms](https://docs.google.com/forms/)
+- [Microsoft Forms](http://forms.office.com)
+- [Survey Monkey](https://www.surveymonkey.com)
+- [Qualtrics](https://www.qualtrics.com) is popular in psychology. Griffith no longer holds a license so it will not be free for you to use.
 
 {% endcapture %}
 
