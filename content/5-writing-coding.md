@@ -1,5 +1,3 @@
-## Coding
-
 {% capture text %}
 Plain text editors are much more important than you might think. Get yourself a good one.
 {% endcapture %}
@@ -21,9 +19,6 @@ These text editors are all oriented towards programming and editing code. They h
 
 - **[Visual Studio Code](code.visualstudio.com)**: Microsoft's programming-oriented text editor. Free and highly extensible.
 
-{% endcapture %}
-{% include card.html header="<i class='fas fa-superscript'></i> Programming text editors" text=editors img="code-editor.png" %}
-
 {% capture besttext %}
 **Our recommendation: Visual Studio Code**
 
@@ -31,13 +26,17 @@ Microsoft's editor is free, highly extensible (meaning it has lots of plugins to
 {% endcapture %}
 {% include alert.html text=besttext color="primary" %}
 
+{% endcapture %}
+{% include card.html header="<i class='fas fa-superscript'></i> Programming text editors" text=editors img="code-editor.png" %}
+
+{% capture environments %}
+
 {% capture text %}
 **What's a development environment?**: It's a set of tools that allow you to write, debug, build and run code. Some development environments support a single language  or platform (like R), and some (like Visual Studio) support multiple languages and platforms.
 {% endcapture %}
 
 {% include alert.html text=text color="info" %}
 
-{% capture environments %}
 - **[R](https://www.r-project.org)**:  extensible, support through Hacky Hour and Carpentries
 
 - **[Python](https://www.python.org)**: support through Hacky Hour and Carpentries

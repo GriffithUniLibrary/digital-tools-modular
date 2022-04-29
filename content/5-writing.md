@@ -7,6 +7,8 @@ description: It's finally time to put pen to paper, so to speak.
 
 {% include figure.html img="ch-writing.png" alt="A boy and his tiger write together" caption="Writing is hard" width="75" %}
 
+## Coding and development
+
 {% include_relative 5-writing-coding.md %}
 
 ___
