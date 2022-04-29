@@ -11,9 +11,6 @@ You can use tools to recommend similar or related papers to those you have. Some
 
 - **[CitNet Explorer](https://www.citnetexplorer.nl/)**: CitNetExplorer is a software tool for visualizing and analyzing citation networks of scientific publications. It has not been updated in some time. 
 
-{% endcapture %}
-{% include card.html header="<i class='fas fa-tree'></i> Automating your paper discovery" text=citationtools img="connected-papers-cropped.png" %}
-
 {% capture bestcitengine %}
 **Our recommendation: All of them!**
 
@@ -22,3 +19,6 @@ No one of these tools does everything the others do. Why not set them all up so 
 {% endcapture %}
 
 {% include alert.html text=bestcitengine color="primary" %}
+
+{% endcapture %}
+{% include card.html header="<i class='fas fa-tree'></i> Automating your paper discovery" text=citationtools img="connected-papers-cropped.png" %}

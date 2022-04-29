@@ -21,9 +21,6 @@ These options are popular, but don't come with any support from the University.
 - [F1000](https://f1000workspace.com/?lg)
 - [BibTex](https://www.bibtex.org)
 
-{% endcapture %}
-{% include card.html header="<i class='fas fa-paperclip'></i> Most popular reference managers" text=text %}
-
 {% capture bestrefman %}
 **Our recommendation: EndNote**
 
@@ -42,3 +39,6 @@ Zotero is Free and Open Source Software (FOSS), has a committed community of use
 {% endcapture %}
 
 {% include alert.html text=rurefman color="info" %}
+
+{% endcapture %}
+{% include card.html header="<i class='fas fa-paperclip'></i> Most popular reference managers" text=text %}
