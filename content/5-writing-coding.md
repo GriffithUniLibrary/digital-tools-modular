@@ -53,10 +53,3 @@ Microsoft's editor is free, highly extensible (meaning it has lots of plugins to
 {% endcapture %}
 
 {% include card.html header="<i class='fas fa-bug'></i> Development languages and environments" text=environments %}
-
-{% capture programminghelp %}
-**Ways to get help at Griffith:**
-- [Software carpentry](https://hackyhourgriffith.wordpress.com/events/soft-carp/)
-- [Hacky Hour](https://hackyhourgriffith.wordpress.com)
-{% endcapture %}
-{% include alert.html text=programminghelp color="info" %}

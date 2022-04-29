@@ -9,6 +9,13 @@ description: It's finally time to put pen to paper, so to speak.
 
 ## Coding and development
 
+{% capture programminghelp %}
+**Ways to get help at Griffith:**
+- [Software carpentry](https://hackyhourgriffith.wordpress.com/events/soft-carp/)
+- [Hacky Hour](https://hackyhourgriffith.wordpress.com)
+{% endcapture %}
+{% include alert.html text=programminghelp color="warning" %}
+
 {% include_relative 5-writing-coding.md %}
 
 ___
