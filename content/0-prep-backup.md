@@ -33,14 +33,13 @@ It's much better for reliability to entrust your data storage to a cloud provide
 [Cloudstor](https://cloudstor.aarnet.edu.au) is powered by AARNet (The Australian Academic Research Network) and provides students and researchers with a Terabyte of free, ultra-fast storage. It's easy to set up and works just like Dropbox.
 {% endcapture %}
 
+{% include video-embed.html youtubeid="mGaqxrrxfgA" caption="Signing in to Cloustor" %}
+
 {% include alert.html text=cloudstor color="primary" %}
 
 {% endcapture %}
 
 {% include card.html header="<i class='fas fa-sync'></i> Online storage & sync options" text=syncoptions img="storage.png" %}
-
-{% include video-embed.html youtubeid="mGaqxrrxfgA" caption="Signing in to Cloustor" %}
-
 ___
 
 ## Keeping more than one perfect copy of your data
