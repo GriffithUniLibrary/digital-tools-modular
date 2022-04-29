@@ -3,16 +3,6 @@
 - [Zotero](https://www.zotero.org) is free and open-source. This makes it a popular option among FOSS enthusiasts.
 - [Mendeley](https://www.mendeley.com) is popular in part because of its inbuilt social network.
 
-{% capture relatedworkshops %}
-
-**Related workshops**
-
-- [EndNote](https://app.secure.griffith.edu.au/events/search?sdata=endnote)
-
-{% endcapture %}
-
-{% include alert.html text=relatedworkshops color="warning" %}
-
 **Alternative options**
 
 These options are popular, but don't come with any support from the University. 
