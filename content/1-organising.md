@@ -17,7 +17,6 @@ A new stable of lightweight apps designed to help researchers connect their thou
 - **[Obsidian](https://obsidian.md)**: Obsidian is free and open-source and is developing rapidly.
 
 - **[Microsoft OneNote](https://www.onenote.com/hrd)**: While OneNote can technically do linked notes, it is not specifically built for it.
-{% endcapture %}
 
 {% capture bestconnected %}
 **Our recommendation: Notion**
@@ -34,6 +33,8 @@ Notion is free for educational users. It is the easiest to get started with and 
 Obsidian is free and open source, and has many plug-ins that extend its capability. Its documents are plain Markdown (.md) text files, meaning it's extremely easy to migrate to and from the app to any other. 
 {% endcapture %}
 {% include alert.html text=runnerup color="info" %}
+
+{% endcapture %}
 
 {% include card.html header="<i class='fas fa-project-diagram'></i> Connected note taking apps" text=connectednotes img="Roam-Group-min.png" %}
 
@@ -59,15 +60,16 @@ A mind map is a fantasic way to see and develop your ideas. You can mind maps to
  - [MindNode](https://mindnode.com) is a popular Mac and iOS option.
  - [Scapple](https://www.literatureandlatte.com/scapple/overview)
  - [MindJet](https://www.mindjet.com)
-{% endcapture %}
-{% include card.html header="<i class='fas fa-brain' color='pink'></i> Mind-mapping" text=mindmaps %}
 
-{% capture bestmind %}
+ {% capture bestmind %}
 **Our recommendation: Diagrams.net**
 
 Free and open-source, fully-featured, highly integrated. What's not to like?
 {% endcapture %}
 
 {% include alert.html text=bestmind color="primary" %}
+
+{% endcapture %}
+{% include card.html header="<i class='fas fa-brain' color='pink'></i> Mind-mapping" text=mindmaps %}
 
 {% include alert.html text="Now that you're completely organised, it's time to look at some tools for [capturing data](2-discovery.md)." color="success" %}

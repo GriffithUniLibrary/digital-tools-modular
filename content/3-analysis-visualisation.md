@@ -13,8 +13,6 @@ No matter what tool you use, you'll need a little bit of training to make good d
 
 - [Chart.js](https://www.chartjs.org): Simple yet flexible JavaScript charting for designers & developers. 
 
-{% endcapture %}
-
 {% capture bestdataviz %}
 **Our recommendation: Tableau**
 
@@ -22,6 +20,8 @@ Tableau can produce beautiful results quickly and is free to academic researcher
 {% endcapture %}
 
 {% include alert.html text=bestdataviz color="primary" %}
+
+{% endcapture %}
 
 {% include card.html header="<i class='fas fa-eye'></i> Data visualisation tools" text=dataviz %}
 
