@@ -16,9 +16,6 @@ The following apps all scan photos, documents and whiteboards, automatically str
 
 - **Apple Notes**: The Notes app on iPhone scans multi-page documents as PDFs. An excellent free option if you have an iPhone.
 
-{% endcapture %}
-{% include card.html header="<i class='fas fa-file-pdf'></i> PDF and document scanners" text=scanners %}
-
 {% capture bestscanner %}
 **Our recommendation: Microsoft Lens**
 
@@ -28,3 +25,5 @@ Adobe Scan is more polished and has more features, but you are more likely to ha
 
 {% include alert.html text=bestscanner color="primary" %}
 
+{% endcapture %}
+{% include card.html header="<i class='fas fa-file-pdf'></i> PDF and document scanners" text=scanners %}
