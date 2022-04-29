@@ -4,13 +4,7 @@
 
 **Get survey design advice first**
 
-Creating an online research survey should come long after you've carefully designed and validated your survey. Griffith offers several workshops to help make sure your survey will get you the answers you want: 
-
-- [Validating your survey questions](https://app.secure.griffith.edu.au/events/search?sdata=validating)
-- [Developing a structural equation model](https://app.secure.griffith.edu.au/events/search?sdata=structural+equation+modelling&event-type=&date_and_time=)
-
-You can also [Get advice from a qualified statistician](https://www.griffith.edu.au/research/research-services/researcher-education-development/statistical-advice).
-
+Creating an online research survey should come long after you've carefully designed and validated your survey. We suggest you attend one of the workshops above. You can also [Get advice from a qualified statistician](https://www.griffith.edu.au/research/research-services/researcher-education-development/statistical-advice).
 {% endcapture %}
 
 {% include alert.html text=gurmawarning color="danger" %}

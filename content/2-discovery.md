@@ -25,6 +25,16 @@ description: When you strike out and start reading or capturing data, how will y
 
 ## Capture qualitative data
 
+{% capture relatedworkshops %}
+
+**Related workshops**
+
+- [Validating your survey questions](https://app.secure.griffith.edu.au/events/search?sdata=validating)
+- [Developing a structural equation model](https://app.secure.griffith.edu.au/events/search?sdata="structural+equation+modelling")
+{% endcapture %}
+
+{% include alert.html text=relatedworkshops color="warning" %}
+
 {% include_relative 2-discovery-capture.md %}
 
 {% include_relative 2-discovery-surveys.md %}
