@@ -34,10 +34,11 @@ ___
 
 {% capture relatedworkshops %}
 
-**Related workshops**
+### Related workshops
 
 - [Data visualisation Basics](https://app.secure.griffith.edu.au/events/search?sdata=visualisation)
 - [Excellent Graphics in R](https://app.secure.griffith.edu.au/events/search?sdata=graphics)
+- [Data storytelling](https://app.secure.griffith.edu.au/events/search?sdata=storytelling)
 
 {% endcapture %}
 

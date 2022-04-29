@@ -1,9 +1,4 @@
-### Data visualisation
-
-{% capture text %}
-No matter what tool you use, you'll need a little bit of training to make good data visualisations. RED offers workshops on [data visualisation and data storytelling](https://app.secure.griffith.edu.au/events/category/developing-researcher-training-program). The Library has also produced an [online introduction](https://sway.office.com/O9vEKmTmBXPxGOnE) you might find useful.
-{% endcapture %}
-{% include alert.html text=text color="info" %}
+No matter what tool you use, you'll need a little bit of training to make good data visualisations. Check out the workshops above. The Library has also produced an [online introduction](https://sway.office.com/O9vEKmTmBXPxGOnE) you might find useful.
 
 {% capture dataviz %}
 - [Data to Viz](https://www.data-to-viz.com/): Helps you to decide which type of graph is appropriate to your data. 
