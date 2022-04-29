@@ -1,4 +1,22 @@
-## Composition
+{% capture markdowntools %}
+
+{% capture aboutmarkdown %}
+`Markdown` is a simple and popular text formatting syntax. It has many advantages for writing for the web, including the fact that it produces plain text files, which are easily shared. It's worth becoming familiar with it. This site is written in Markdown.
+{% endcapture %}
+{% include alert.html text=aboutmarkdown color="info" %}
+
+All of the programming text editors above support Markdown. Below are some dedicated Markdown editors. 
+
+- **[Dillinger](https://dillinger.io)**:  popular and free online Markdown editor.
+
+- **[Stackedit](https://stackedit.io)**: popular and free online Markdown editor.
+
+- **[Ulysses](https://ulysses.app)**: a general-purpose writing app with good Markdown support.
+
+- **[Marked 2 (Mac)](https://marked2app.com)**
+
+{% endcapture %}
+{% include card.html header="<i class='fab fa-markdown'></i> Markdown editors" text=markdowntools %}
 
 {% capture compostition %}
 - **[LaTeX](https://www.overleaf.com)**: `LaTeX` is a text formatting language (like `Markdown`) which is very flexible and robust. It is format agnostic your document structure, headings and figures can use any style you like. Overleaf is a web-based LaTeX editor with many built-in templates and automatic preview. It can automatically format your paper for certain journals and even submit them for you.
