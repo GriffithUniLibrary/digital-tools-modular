@@ -2,7 +2,7 @@
 
 {% capture relatedworkshops %}
 
-### Related workshops
+**Related workshops**
 
 - [Leximancer workshops](https://app.secure.griffith.edu.au/events/search?sdata=leximancer)
 - [Digital Texts and Tools for HASS Research](https://app.secure.griffith.edu.au/events/search?sdata=HASS)

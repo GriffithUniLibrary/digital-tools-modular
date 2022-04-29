@@ -9,7 +9,7 @@ description: Analysing your data will happen over several stages.
 
 {% capture relatedworkshops %}
 
-### Related workshops
+**Related workshops**
 
 - [Data wrangling with OpenRefine](https://app.secure.griffith.edu.au/events/search?sdata=wrangling)
 
@@ -33,7 +33,7 @@ ___
 
 {% capture relatedworkshops %}
 
-### Related workshops
+**Related workshops**
 
 - [Data visualisation Basics](https://app.secure.griffith.edu.au/events/search?sdata=visualisation)
 - [Excellent Graphics in R](https://app.secure.griffith.edu.au/events/search?sdata=graphics)
