@@ -1,3 +1,5 @@
+## Finding papers
+
 {% capture citationtools %}
 You can use tools to recommend similar or related papers to those you have. Some of them also help to visualise connections between the papers in your field or research project. 
 
@@ -22,3 +24,5 @@ No one of these tools does everything the others do. Why not set them all up so 
 {% endcapture %}
 
 {% include alert.html text=bestcitengine color="primary" %}
+
+----
