@@ -18,18 +18,14 @@ It's much better for reliability to entrust your data storage to a cloud provide
 
 - **[Google Drive](https://www.google.com/drive/)**: Everyone knows this one. 
 
-- **[OneDrive](https://griffitheduau-my.sharepoint.com/)**: 1TB of space is provided to you by Griffith. Integrates with other Microsoft 365 services. 
-
-- **[Dropbox](https://www.dropbox.com/)**
-{% endcapture %}
-
-{% include card.html header="<i class='fas fa-sync'></i> Online storage & sync options" text=syncoptions img="storage.png" %}
+- **[OneDrive](https://griffitheduau-my.sharepoint.com/)**: 1TB of space is provided to you by Griffith. Integrates with other Microsoft 365 services.
 
 {% capture note %}
 **Note:** When signing in to OneDrive, be sure to use your Griffith credentials rather than a personal Microsoft account.
 {% endcapture %}
 {% include alert.html text=note color="info" %}
 
+- **[Dropbox](https://www.dropbox.com/)**
 
 {% capture cloudstor %}
 **Our recommendation: AARNet Cloudstor**
@@ -38,6 +34,10 @@ It's much better for reliability to entrust your data storage to a cloud provide
 {% endcapture %}
 
 {% include alert.html text=cloudstor color="primary" %}
+
+{% endcapture %}
+
+{% include card.html header="<i class='fas fa-sync'></i> Online storage & sync options" text=syncoptions img="storage.png" %}
 
 {% include video-embed.html youtubeid="mGaqxrrxfgA" caption="Signing in to Cloustor" %}
 
@@ -76,11 +76,7 @@ You should run a backup tool *in addition* to the services above. Your best, mos
 
  - Drag-and-drop (the worst option)
 
- {% endcapture %}
-
-{% include card.html header="💽 Hard-drive backup options" text=hdbackups %}
-
-{% capture timemachine %}
+ {% capture timemachine %}
 **Our recommendation: Your operating system**
 
 The best backup is the one you will use. That means set-and-forget is best. Buy a simple external hard drive and leave it plugged in to your computer, or place a weekly calendar reminder to plug it in. Let the operating system do the rest. 
@@ -88,6 +84,9 @@ The best backup is the one you will use. That means set-and-forget is best. Buy 
 
 {% include alert.html text=timemachine color="primary" %}
 
+ {% endcapture %}
+
+{% include card.html header="💽 Hard-drive backup options" text=hdbackups %}
 
 {% capture why %}
 Because (a) you will inevitably forget to do it at some point, and (b) each new copy replaces what was there before meaning you can't recover older versions of your work.

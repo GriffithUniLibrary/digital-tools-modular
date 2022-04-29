@@ -18,7 +18,12 @@ Getting used to using a password manager is a great investment in your overall e
 
  - **[Dashlane](https://www.dashlane.com)**
 
+{% capture pwrecommended %}
+**Our recommendation: Bitwarden**
 
+Although LastPass is a partner of Griffith and is offered free to staff, the app is not as seamless as Bitwarden, and your license will not come with you if you leave Griffith. For that reason, we recommend going with Bitwarden. 
+{% endcapture %}
+{% include alert.html text=pwrecommended color="primary" %}
 
 {% endcapture %}
 {% include card.html header="<i class='fas fa-key'></i> Password managers" text=pwmanagers %}
@@ -28,9 +33,3 @@ You could, but you would be missing out on a few of the key benefits of password
 {% endcapture %}
 {% include modal.html button="Why can't I just let my browser remember my passwords?" color="info" title="Why not save in a browser" text=browser %}
 
-{% capture pwrecommended %}
-**Our recommendation: Bitwarden**
-
-Although LastPass is a partner of Griffith and is offered free to staff, the app is not as seamless as Bitwarden, and your license will not come with you if you leave Griffith. For that reason, we recommend going with Bitwarden. 
-{% endcapture %}
-{% include alert.html text=pwrecommended color="primary" %}
