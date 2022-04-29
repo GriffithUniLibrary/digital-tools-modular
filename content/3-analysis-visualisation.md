@@ -15,6 +15,14 @@ No matter what tool you use, you'll need a little bit of training to make good d
 
 {% endcapture %}
 
+{% capture bestdataviz %}
+**Our recommendation: Tableau**
+
+Tableau can produce beautiful results quickly and is free to academic researchers. It's not supported by the University — but neither are any of the others.
+{% endcapture %}
+
+{% include alert.html text=bestdataviz color="primary" %}
+
 {% include card.html header="<i class='fas fa-eye'></i> Data visualisation tools" text=dataviz %}
 
 {% capture chartjs %}
@@ -65,14 +73,6 @@ var myChart = new Chart(ctx, {
 {% endcapture %}
 
 {% include card.html header="<i class='fas fa-chart-bar'></i> Sample Chart.js output" text=chartjs %}
-
-{% capture bestdataviz %}
-**Our recommendation: Tableau**
-
-Tableau can produce beautiful results quickly and is free to academic researchers. It's not supported by the University — but neither are any of the others.
-{% endcapture %}
-
-{% include alert.html text=bestdataviz color="primary" %}
 
 Activity: Want to try out some data visualisation? Of course you do!
 

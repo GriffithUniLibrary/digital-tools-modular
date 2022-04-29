@@ -9,14 +9,13 @@ description: Analysing your data will happen over several stages.
 
 {% capture relatedworkshops %}
 
-    ### Related workshops
+### Related workshops
 
-    - [Data wrangling with OpenRefine](https://app.secure.griffith.edu.au/events/search?sdata=wrangling)
+- [Data wrangling with OpenRefine](https://app.secure.griffith.edu.au/events/search?sdata=wrangling)
 
-    {% endcapture %}
+{% endcapture %}
 
-    {% include alert.html text=relatedworkshops color="warning" %}
-
+{% include alert.html text=relatedworkshops color="warning" %}
 
 {% include_relative 3-analysis-cleanup.md %}
 

@@ -1,4 +1,16 @@
-### Text analysis
+## Analysing text
+
+{% capture relatedworkshops %}
+
+### Related workshops
+
+- [Leximancer workshops](https://app.secure.griffith.edu.au/events/search?sdata=leximancer)
+- [Digital Texts and Tools for HASS Research](https://app.secure.griffith.edu.au/events/search?sdata=HASS)
+- [Webscraping](https://app.secure.griffith.edu.au/events/search?sdata=scraping)
+
+{% endcapture %}
+
+{% include alert.html text=relatedworkshops color="warning" %}
 
 {% capture textanalysis %}
 
@@ -17,18 +29,6 @@ Text and data mining has become a significant part of the `Digital Humanities`.
 - **[JSTOR Labs](http://labs.jstor.org.libraryproxy.griffith.edu.au/)**: A variety of text analysis tools provided by JSTOR. Griffith maintains a subscription. 
 
 - **[Gale Digital Scholar Lab](http://libraryproxy.griffith.edu.au/login?url=https://infotrac.gale.com/itweb/griffith?db=DSLAB)**: A collection of tools to build, clean and analyse text-based datasets. Griffith maintains a subscription.
-
-{% capture relatedworkshops %}
-
- **Related workshops**
-
-- [Leximancer workshops](https://app.secure.griffith.edu.au/events/search?sdata=leximancer)
-- [Digital Texts and Tools for HASS Research](https://app.secure.griffith.edu.au/events/search?sdata=HASS)
-- [Webscraping](https://app.secure.griffith.edu.au/events/search?sdata=scraping)
-
-{% endcapture %}
-
-{% include alert.html text=relatedworkshops color="warning" %}
 
 {% endcapture %}
 
