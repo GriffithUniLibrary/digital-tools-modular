@@ -7,9 +7,9 @@ description: When you strike out and start reading or capturing data, how will y
 
 ## Manage your references
 
-{% include_relative 2-discovery-citation.md %}
-
 {% include_relative 2-discovery-references.md %}
+
+{% include_relative 2-discovery-citation.md %}
 
 ----
 
