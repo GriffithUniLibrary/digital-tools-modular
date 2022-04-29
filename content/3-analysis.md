@@ -5,6 +5,19 @@ topics: Data cleaning, qualitative analysis, quantitative analysis,
 description: Analysing your data will happen over several stages.
 ---
 
+## Preparing to analyse
+
+{% capture relatedworkshops %}
+
+    ### Related workshops
+
+    - [Data wrangling with OpenRefine](https://app.secure.griffith.edu.au/events/search?sdata=wrangling)
+
+    {% endcapture %}
+
+    {% include alert.html text=relatedworkshops color="warning" %}
+
+
 {% include_relative 3-analysis-cleanup.md %}
 
 ___
@@ -16,6 +29,20 @@ ___
 {% include_relative 3-analysis-text.md %}
 
 ___
+
+### Visualising your data
+
+{% capture relatedworkshops %}
+
+**Related workshops**
+
+- [Data visualisation Basics](https://app.secure.griffith.edu.au/events/search?sdata=visualisation)
+- [Excellent Graphics in R](https://app.secure.griffith.edu.au/events/search?sdata=graphics)
+
+{% endcapture %}
+
+{% include alert.html text=relatedworkshops color="warning" %}
+
 
 {% include_relative 3-analysis-visualisation.md %}
 
