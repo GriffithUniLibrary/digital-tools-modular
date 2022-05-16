@@ -7,7 +7,7 @@ description: >
 ---
 
 
-{% include figure.html img="ch-preparation.png" alt="A boy and his tiger prepare to embark on their journey" caption="Preparing to embark" width="75" float="left" %}
+{% include figure.html img="dice.jpg" alt="A model stormtrooper carrying two dice" caption="Don't gamble with your research data (image by JD Hancock, licensed under CC BY 2.0.)" width="75" float="left" %}
 
 {% include_relative 0-prep-backup.md %}
 
