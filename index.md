@@ -5,7 +5,7 @@ layout: default
 
 # Digital Tools for Research
 
-{% include figure.html img="c-and-h.jpeg" alt="A boy and his tiger on an adventure" caption="How it feels to embark on a research journey" width="75%" %}
+{% include figure.html img="bobsled.jpg" alt="U.S. Olympic Bobsled Team Contenders" caption="Embarking on your research journey (image by The U.S. Army, licensed under CC BY 2.0.)" width="75%" %}
 
 {% capture workshopinfo %}
 Hi! This site is designed as a companion to [Griffith Library's](https://www.griffith.edu.au/library) Digital Tools for Research workshop, presented in collaboration with Griffith [RED](https://www.griffith.edu.au/research/research-services/researcher-education-development).
