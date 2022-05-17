@@ -7,6 +7,8 @@ description: >
 
 ---
 
+{% include figure.html img="taking-shape.jpg" alt="Lego stormtroopers building a starship" caption="Get everything together before you take off (image by Reiterlied, licensed under CC BY-NC-SA 2.0)" width="75" float="left" %}
+
 {% capture connectednotes %}
 A new stable of lightweight apps designed to help researchers connect their thoughts together have begun to emerge. The idea behind their popularity is that knowledge tends to work associatively rather than hierachically. Most or all of them use Markdown syntax for writing. 
 
@@ -49,8 +51,6 @@ There are many other note-taking apps to suit every fancy.
  - [DEVONThink](https://www.devontechnologies.com) (Mac only): A unified document, note, file and thought storage, management and linking database.
  {% endcapture %}
  {% include card.html header="<i class='fas fa-sticky-note'></i> Other note taking apps" text=notes %}
-
-
 
 {% capture mindmaps %}
 A mind map is a fantasic way to see and develop your ideas. You can mind maps to your connected notes app (above) to get the best of both worlds. 
