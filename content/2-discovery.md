@@ -5,6 +5,8 @@ topics: Citation trees; automated alerts; PDF scanning; Survey tools; Reference 
 description: When you strike out and start reading or capturing data, how will you make sure that everything you're doing is captured? How will you make sure that you've found all the papers you should be looking for? 
 ---
 
+{% include figure.html img="collecting.jpg" alt="Lego figure with a butterfly net" caption="Shh! We're hunting research data! (image by Reiterlied, licensed under CC BY-NC-SA 2.0)" width="75" float="left" %}
+
 ## Manage your references
 
 {% capture relatedworkshops %}
