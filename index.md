@@ -5,8 +5,6 @@ layout: default
 
 # Digital Tools for Research
 
-{% include figure.html img="embarking.jpg" alt="Lego submarine floating on the water" caption="Preparing to embark (image by Reiterlied, licensed under CC BY-NC-SA 2.0)" width="75" float="left" %}
-
 {% capture workshopinfo %}
 Hi! This site is designed as a companion to [Griffith Library's](https://www.griffith.edu.au/library) Digital Tools for Research workshop, presented in collaboration with Griffith [RED](https://www.griffith.edu.au/research/research-services/researcher-education-development).
 {% endcapture %}
@@ -18,6 +16,8 @@ It can also be treated as a standalone, self-paced tutorial.
 {% endcapture %}
 
 {% include alert.html text=moreinfo align="left" color="info" %}
+
+{% include figure.html img="embarking.jpg" alt="Lego submarine floating on the water" caption="Preparing to embark (image by Reiterlied, licensed under CC BY-NC-SA 2.0)" width="75" float="left" %}
 
 ## About this workshop
 
