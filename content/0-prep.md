@@ -7,7 +7,7 @@ description: >
 ---
 
 
-{% include figure.html img="dice.jpg" alt="A model stormtrooper carrying two dice" caption="Don't gamble with your research data (image by Reiterlied, licensed under CC BY-NC-SA 2.0)" width="75" float="left" %}
+{% include figure.html img="packed.jpg" alt="Two lego characters in front of a loaded car" caption="Make sure you've got what you need before you take off (image by Reiterlied, licensed under CC BY-NC-SA 2.0)" width="75" float="left" %}
 
 {% include_relative 0-prep-backup.md %}
 
