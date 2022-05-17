@@ -7,7 +7,7 @@ description: >
 
 ---
 
-{% include figure.html img="taking-shape.jpg" alt="Lego stormtroopers building a starship" caption="Get everything together before you take off (image by Reiterlied, licensed under CC BY-NC-SA 2.0)" width="75" float="left" %}
+{% include figure.html img="taking-shape.jpg" alt="Lego stormtroopers building a starship" caption="Getting everything together (image by Reiterlied, licensed under CC BY-NC-SA 2.0)" width="75" float="left" %}
 
 {% capture connectednotes %}
 A new stable of lightweight apps designed to help researchers connect their thoughts together have begun to emerge. The idea behind their popularity is that knowledge tends to work associatively rather than hierachically. Most or all of them use Markdown syntax for writing. 

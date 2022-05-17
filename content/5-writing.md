@@ -5,7 +5,7 @@ topics: Coding; work processors; composition
 description: It's finally time to put pen to paper, so to speak. 
 ---
 
-{% include figure.html img="writing.jpg" alt="Lego figure with a paintbrush" caption="Commit to writing a little each day! (image by Reiterlied, licensed under CC BY-NC-SA 2.0)" width="75" float="left" %}
+{% include figure.html img="writing.jpg" alt="Lego figure with a paintbrush" caption="Commit to writing a little each day (image by Reiterlied, licensed under CC BY-NC-SA 2.0)" width="75" float="left" %}
 
 ## Coding and development
 

@@ -5,7 +5,7 @@ topics: Images, Networking
 description: Youre ready to publish. Polish up that paper and upload it, then let the world know. 
 ---
 
-{% include figure.html img="fishing.jpg" alt="Lego figure on a horse with a fishing pole" caption="Fishing for compliments? (image by Reiterlied, licensed under CC BY-NC-SA 2.0)" width="75" float="left" %}
+{% include figure.html img="fishing.jpg" alt="Lego figure on a horse with a fishing pole" caption="Fishing for compliments (image by Reiterlied, licensed under CC BY-NC-SA 2.0)" width="75" float="left" %}
 
 {% include_relative 6-publication-images.md %}
 
