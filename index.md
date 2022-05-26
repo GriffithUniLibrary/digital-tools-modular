@@ -57,8 +57,6 @@ The average number of digital tools in a researcher's toolbox is 22. If you coun
 
 {% include toc.html %}
 
-Hosted by [Griffith University Library](http://www.griffith.edu.au/library), {{ site.pub_year }}.
-
 ------
 
 {% include template/credits.html %}
