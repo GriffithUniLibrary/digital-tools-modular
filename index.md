@@ -17,9 +17,26 @@ It can also be treated as a standalone, self-paced tutorial.
 
 {% include alert.html text=moreinfo align="left" color="info" %}
 
-{% include figure.html img="embarking.jpg" alt="Lego submarine floating on the water" caption="Preparing to embark (image by Reiterlied, licensed under CC BY-NC-SA 2.0)" width="75" float="left" %}
+<!-- 
+    {% include figure.html img="embarking.jpg" alt="Lego submarine floating on the water" caption="Preparing to embark (image by Reiterlied, licensed under CC BY-NC-SA 2.0)" width="75" float="left" %}
+    -->
 
-## About this workshop
+{% capture aboutworkshop %}
+
+Become familiar with a wide range of digital tools available to assist you throughout your research journey.
+
+## Learning outcomes
+
+By the end of the workshop, students should be able to: 
+
+- Identify the various stages of higher degree research and understand that different digital tools are appropriate to each one, 
+- Identify and select at least one new digital tool appropriate to their own research workflow,
+- Explain the importance of protecting research data, as well as knowledge of what backup and storage options are available,
+- Demonstrate simple data visualisation techniques using sample data, and
+- Locate ongoing technical and research support from the University.
+
+{% endcapture %}
+{% include card.html header="About this workshop" text=aboutworkshop %}
 
 This workshop has five sections, reflecting the phases of research outlined by [Kramer](https://twitter.com/MsPhelps) <i class="fab fa-twitter" style="color:#00aced"></i> and [Bosnan](https://twitter.com/jeroenbosman) <i class="fab fa-twitter" style="color:#00aced"></i> of Utrecht University in their [extensive 2016 study](https://101innovations.wordpress.com) on scholarly tools (Kramer and Bosnan actually use seven phases, but we have simplified it to five).
 
